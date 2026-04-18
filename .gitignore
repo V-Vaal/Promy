@@ -1,0 +1,37 @@
+# IDE / agents
+.vscode/
+.claude/
+.cursor/
+.codex
+AGENTS.md
+CLAUDE.md
+.aidd-flow/
+
+# Environnements Python
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS / divers
+.DS_Store
+.env
+tmp/
+
+# Dataset Kaggle (à télécharger, voir Promy_raw/README.md)
+Promy_raw/datasets/High-Quality Invoice Images for OCR/
+
+# Checkpoints d'entraînement (régénérables via NB3)
+workspace_paddleocr_invoice/runs/rec/*.pdopt
+workspace_paddleocr_invoice/runs/rec/*.pdparams
+workspace_paddleocr_invoice/runs/rec/*.states
+workspace_paddleocr_invoice/runs/rec/best_model/
+
+# Pseudo-labels et crops régénérables (les CSV de qualité sont gardés)
+workspace_paddleocr_invoice/prepared_data/batch2_unlabeled_images.txt
+workspace_paddleocr_invoice/prepared_data/prepared_data/batch2_unlabeled_images.txt
+workspace_paddleocr_invoice/prepared_data/prepared_data/rec_images/
+
+# Archives notebooks
+notebooks/archive/

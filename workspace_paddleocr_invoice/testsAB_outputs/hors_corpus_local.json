@@ -1,0 +1,1384 @@
+{
+  "image_path": "/teamspace/studios/this_studio/Promy_raw/datasets/invoiceextra.png",
+  "preprocess_meta": {
+    "shared_preprocessing": true,
+    "original_size": [
+      500,
+      649
+    ],
+    "processed_size": [
+      2480,
+      3219
+    ],
+    "deskew_angle": 0.0
+  },
+  "time_dict": {
+    "rec": 0.08689641952514648,
+    "all": 0.08689641952514648
+  },
+  "rows": [
+    {
+      "line_id": 1,
+      "text": "DrearmwiseFeality",
+      "score": 0.9389380812644958,
+      "detector_text": "Dreamwise Reality",
+      "detector_score": 0.9724249734598047,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 437,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          205.05,
+          170.36
+        ],
+        [
+          642.6,
+          173.61
+        ],
+        [
+          642.6,
+          227.15
+        ],
+        [
+          205.05,
+          223.9
+        ]
+      ]
+    },
+    {
+      "line_id": 2,
+      "text": "INV0ICE",
+      "score": 0.9320179224014282,
+      "detector_text": "INVOICE",
+      "detector_score": 0.9969824382237026,
+      "crop_source": "rapidocr_box",
+      "crop_h": 76,
+      "crop_w": 314,
+      "line_height_px": 76,
+      "detector_box": [
+        [
+          1924.58,
+          178.47
+        ],
+        [
+          2239.43,
+          178.47
+        ],
+        [
+          2239.43,
+          254.73
+        ],
+        [
+          1924.58,
+          254.73
+        ]
+      ]
+    },
+    {
+      "line_id": 3,
+      "text": "dreoamny Blilg",
+      "score": 0.704162061214447,
+      "detector_text": "Dream Big.",
+      "detector_score": 0.8806520640850067,
+      "crop_source": "rapidocr_box",
+      "crop_h": 45,
+      "crop_w": 166,
+      "line_height_px": 45,
+      "detector_box": [
+        [
+          205.05,
+          220.66
+        ],
+        [
+          371.35,
+          225.52
+        ],
+        [
+          369.74,
+          270.95
+        ],
+        [
+          203.44,
+          266.09
+        ]
+      ]
+    },
+    {
+      "line_id": 4,
+      "text": "wliz i/ Wutt ewobdtod Atwre up Mlar hrtilbich,pS tty NiztBGA 5",
+      "score": 0.6606366038322449,
+      "detector_text": "4321MaplewoodAve.,Nashville,TN12345",
+      "detector_score": 0.9242918746812003,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 647,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          203.44,
+          285.56
+        ],
+        [
+          850.89,
+          287.18
+        ],
+        [
+          850.89,
+          330.99
+        ],
+        [
+          203.44,
+          329.36
+        ]
+      ]
+    },
+    {
+      "line_id": 5,
+      "text": "InnOIce M",
+      "score": 0.6348149180412292,
+      "detector_text": "INVOICEF111",
+      "detector_score": 0.9006407233801755,
+      "crop_source": "rapidocr_box",
+      "crop_h": 38,
+      "crop_w": 221,
+      "line_height_px": 38,
+      "detector_box": [
+        [
+          2018.23,
+          288.8
+        ],
+        [
+          2239.43,
+          288.8
+        ],
+        [
+          2239.43,
+          327.74
+        ],
+        [
+          2018.23,
+          327.74
+        ]
+      ]
+    },
+    {
+      "line_id": 6,
+      "text": "(tz//456r78M [(/  t2,N-5 6r-7,Of",
+      "score": 0.6893348693847656,
+      "detector_text": "(123)456-78901(123) 456-7891",
+      "detector_score": 0.9521746358701161,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 474,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          206.67,
+          330.99
+        ],
+        [
+          681.35,
+          330.99
+        ],
+        [
+          681.35,
+          373.17
+        ],
+        [
+          206.67,
+          373.17
+        ]
+      ]
+    },
+    {
+      "line_id": 7,
+      "text": "Oatirf4V2S PlW",
+      "score": 0.6187373399734497,
+      "detector_text": "Date:4/25/24",
+      "detector_score": 0.9722764591375986,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 226,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          2016.61,
+          330.99
+        ],
+        [
+          2242.66,
+          330.99
+        ],
+        [
+          2242.66,
+          374.79
+        ],
+        [
+          2016.61,
+          374.79
+        ]
+      ]
+    },
+    {
+      "line_id": 8,
+      "text": "rne fveicluouedlio ed lirce aurorwruweircallutitig ueccormm",
+      "score": 0.6480353474617004,
+      "detector_text": "relecloudgdreamwrsereality.com",
+      "detector_score": 0.8944807857275009,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 502,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          205.05,
+          374.79
+        ],
+        [
+          707.19,
+          374.79
+        ],
+        [
+          707.19,
+          416.98
+        ],
+        [
+          205.05,
+          416.98
+        ]
+      ]
+    },
+    {
+      "line_id": 9,
+      "text": "Te",
+      "score": 0.9936844706535339,
+      "detector_text": "Te:",
+      "detector_score": 0.6518360177675883,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 58,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          201.82,
+          420.22
+        ],
+        [
+          259.95,
+          420.22
+        ],
+        [
+          259.95,
+          464.03
+        ],
+        [
+          201.82,
+          464.03
+        ]
+      ]
+    },
+    {
+      "line_id": 10,
+      "text": "Tormn A,S MFX& t , jw WlS",
+      "score": 0.558341920375824,
+      "detector_text": "Teem:5/30/24to 6/30/25",
+      "detector_score": 0.9490062188018452,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 403,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          1837.4,
+          420.22
+        ],
+        [
+          2241.04,
+          420.22
+        ],
+        [
+          2241.04,
+          462.41
+        ],
+        [
+          1837.4,
+          462.41
+        ]
+      ]
+    },
+    {
+      "line_id": 11,
+      "text": "Pirew Nkurwcth",
+      "score": 0.900299608707428,
+      "detector_text": "Frey Munch",
+      "detector_score": 0.9743216097354889,
+      "crop_source": "rapidocr_box",
+      "crop_h": 48,
+      "crop_w": 184,
+      "line_height_px": 48,
+      "detector_box": [
+        [
+          200.21,
+          457.54
+        ],
+        [
+          384.27,
+          457.54
+        ],
+        [
+          384.27,
+          506.21
+        ],
+        [
+          200.21,
+          506.21
+        ]
+      ]
+    },
+    {
+      "line_id": 12,
+      "text": "Cturtntliro Crtbup",
+      "score": 0.7986660599708557,
+      "detector_text": "Caneiro Group",
+      "detector_score": 0.9018445931948148,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 224,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          203.44,
+          504.59
+        ],
+        [
+          427.86,
+          507.84
+        ],
+        [
+          427.86,
+          551.64
+        ],
+        [
+          203.44,
+          548.4
+        ]
+      ]
+    },
+    {
+      "line_id": 13,
+      "text": "8E Puc(lcs urer",
+      "score": 0.6338691711425781,
+      "detector_text": "89Pacific Ave.",
+      "detector_score": 0.939149626663753,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 227,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          203.44,
+          545.15
+        ],
+        [
+          431.09,
+          548.4
+        ],
+        [
+          431.09,
+          592.21
+        ],
+        [
+          203.44,
+          588.96
+        ]
+      ]
+    },
+    {
+      "line_id": 14,
+      "text": "Stnffr rtc i rtta,  ,M 5.w,Jz",
+      "score": 0.655410647392273,
+      "detector_text": "San Francisco,CA 54321",
+      "detector_score": 0.9052950184453618,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 368,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          203.44,
+          590.58
+        ],
+        [
+          571.56,
+          590.58
+        ],
+        [
+          571.56,
+          632.77
+        ],
+        [
+          203.44,
+          632.77
+        ]
+      ]
+    },
+    {
+      "line_id": 15,
+      "text": "(t.w//7t .Oitz",
+      "score": 0.5984423756599426,
+      "detector_text": "(123)789-0123",
+      "detector_score": 0.9890977052541879,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 232,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          203.44,
+          632.77
+        ],
+        [
+          435.94,
+          632.77
+        ],
+        [
+          435.94,
+          676.57
+        ],
+        [
+          203.44,
+          676.57
+        ]
+      ]
+    },
+    {
+      "line_id": 16,
+      "text": "Clusitomner Ili D INlow. m  .Ati",
+      "score": 0.8025282025337219,
+      "detector_text": "Custamer ID No.0549",
+      "detector_score": 0.951643893593236,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 331,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          203.44,
+          676.57
+        ],
+        [
+          534.43,
+          673.33
+        ],
+        [
+          534.43,
+          717.14
+        ],
+        [
+          203.44,
+          720.38
+        ]
+      ]
+    },
+    {
+      "line_id": 17,
+      "text": "cIL inn t",
+      "score": 0.7134155631065369,
+      "detector_text": "Client",
+      "detector_score": 0.940346896648407,
+      "crop_source": "rapidocr_box",
+      "crop_h": 51,
+      "crop_w": 119,
+      "line_height_px": 51,
+      "detector_box": [
+        [
+          201.82,
+          859.91
+        ],
+        [
+          321.3,
+          859.91
+        ],
+        [
+          321.3,
+          911.83
+        ],
+        [
+          201.82,
+          911.83
+        ]
+      ]
+    },
+    {
+      "line_id": 18,
+      "text": "Loxca tliorn",
+      "score": 0.9470449090003967,
+      "detector_text": "Location",
+      "detector_score": 0.9879263937473297,
+      "crop_source": "rapidocr_box",
+      "crop_h": 50,
+      "crop_w": 167,
+      "line_height_px": 50,
+      "detector_box": [
+        [
+          718.49,
+          861.54
+        ],
+        [
+          886.41,
+          861.54
+        ],
+        [
+          886.41,
+          911.83
+        ],
+        [
+          718.49,
+          911.83
+        ]
+      ]
+    },
+    {
+      "line_id": 19,
+      "text": "Ptuayirr wnruk tinrirrhud",
+      "score": 0.823256254196167,
+      "detector_text": "Paymentterms",
+      "detector_score": 0.9791653255621592,
+      "crop_source": "rapidocr_box",
+      "crop_h": 48,
+      "crop_w": 277,
+      "line_height_px": 48,
+      "detector_box": [
+        [
+          1241.61,
+          863.16
+        ],
+        [
+          1519.32,
+          863.16
+        ],
+        [
+          1519.32,
+          911.83
+        ],
+        [
+          1241.61,
+          911.83
+        ]
+      ]
+    },
+    {
+      "line_id": 20,
+      "text": "OXuon kd an it",
+      "score": 0.825516402721405,
+      "detector_text": "Due date",
+      "detector_score": 0.9756303057074547,
+      "crop_source": "rapidocr_box",
+      "crop_h": 50,
+      "crop_w": 174,
+      "line_height_px": 50,
+      "detector_box": [
+        [
+          1758.28,
+          861.54
+        ],
+        [
+          1932.66,
+          861.54
+        ],
+        [
+          1932.66,
+          911.83
+        ],
+        [
+          1758.28,
+          911.83
+        ]
+      ]
+    },
+    {
+      "line_id": 21,
+      "text": "Cr tisktirna e icthtrwraurritia",
+      "score": 0.8033945560455322,
+      "detector_text": "Cristina Echevarria",
+      "detector_score": 0.9768995046615601,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 289,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          205.05,
+          923.19
+        ],
+        [
+          494.06,
+          923.19
+        ],
+        [
+          494.06,
+          967.0
+        ],
+        [
+          205.05,
+          967.0
+        ]
+      ]
+    },
+    {
+      "line_id": 22,
+      "text": "XNLM",
+      "score": 0.5906046628952026,
+      "detector_text": "24AEast",
+      "detector_score": 0.8798504982675824,
+      "crop_source": "rapidocr_box",
+      "crop_h": 50,
+      "crop_w": 143,
+      "line_height_px": 50,
+      "detector_box": [
+        [
+          720.1,
+          919.95
+        ],
+        [
+          863.8,
+          919.95
+        ],
+        [
+          863.8,
+          970.24
+        ],
+        [
+          720.1,
+          970.24
+        ]
+      ]
+    },
+    {
+      "line_id": 23,
+      "text": "Outonrccelf",
+      "score": 0.8270015120506287,
+      "detector_text": "Due on receipt",
+      "detector_score": 0.9395335997853961,
+      "crop_source": "rapidocr_box",
+      "crop_h": 48,
+      "crop_w": 234,
+      "line_height_px": 48,
+      "detector_box": [
+        [
+          1238.39,
+          919.95
+        ],
+        [
+          1472.5,
+          923.19
+        ],
+        [
+          1472.5,
+          971.87
+        ],
+        [
+          1238.39,
+          968.62
+        ]
+      ]
+    },
+    {
+      "line_id": 24,
+      "text": "T0o",
+      "score": 0.625016987323761,
+      "detector_text": "T8D",
+      "detector_score": 0.5795408884684244,
+      "crop_source": "rapidocr_box",
+      "crop_h": 48,
+      "crop_w": 75,
+      "line_height_px": 48,
+      "detector_box": [
+        [
+          1758.28,
+          921.57
+        ],
+        [
+          1834.17,
+          921.57
+        ],
+        [
+          1834.17,
+          970.24
+        ],
+        [
+          1758.28,
+          970.24
+        ]
+      ]
+    },
+    {
+      "line_id": 25,
+      "text": "MlLornitth",
+      "score": 0.7483988404273987,
+      "detector_text": "Months",
+      "detector_score": 0.9944614768028259,
+      "crop_source": "rapidocr_box",
+      "crop_h": 50,
+      "crop_w": 138,
+      "line_height_px": 50,
+      "detector_box": [
+        [
+          201.82,
+          1051.37
+        ],
+        [
+          340.68,
+          1054.61
+        ],
+        [
+          339.06,
+          1104.91
+        ],
+        [
+          200.21,
+          1101.66
+        ]
+      ]
+    },
+    {
+      "line_id": 26,
+      "text": "Dlessxcar ipA tk kom",
+      "score": 0.7329844236373901,
+      "detector_text": "Description",
+      "detector_score": 0.982021304694089,
+      "crop_source": "rapidocr_box",
+      "crop_h": 48,
+      "crop_w": 213,
+      "line_height_px": 48,
+      "detector_box": [
+        [
+          571.56,
+          1052.99
+        ],
+        [
+          784.69,
+          1056.23
+        ],
+        [
+          784.69,
+          1104.91
+        ],
+        [
+          571.56,
+          1101.66
+        ]
+      ]
+    },
+    {
+      "line_id": 27,
+      "text": "Hlcurly uaite",
+      "score": 0.8919945359230042,
+      "detector_text": "Hourly Rate",
+      "detector_score": 0.9527291059494019,
+      "crop_source": "rapidocr_box",
+      "crop_h": 50,
+      "crop_w": 217,
+      "line_height_px": 50,
+      "detector_box": [
+        [
+          1556.46,
+          1052.99
+        ],
+        [
+          1774.43,
+          1052.99
+        ],
+        [
+          1774.43,
+          1103.29
+        ],
+        [
+          1556.46,
+          1103.29
+        ]
+      ]
+    },
+    {
+      "line_id": 28,
+      "text": "Llne itotall",
+      "score": 0.890594482421875,
+      "detector_text": "Line total",
+      "detector_score": 0.9720184087753296,
+      "crop_source": "rapidocr_box",
+      "crop_h": 50,
+      "crop_w": 187,
+      "line_height_px": 50,
+      "detector_box": [
+        [
+          1913.28,
+          1051.37
+        ],
+        [
+          2100.57,
+          1054.61
+        ],
+        [
+          2100.57,
+          1104.91
+        ],
+        [
+          1913.28,
+          1101.66
+        ]
+      ]
+    },
+    {
+      "line_id": 29,
+      "text": "\"raurnsuancktlkior, C xtoxrourdllinunitIkiorn (liee",
+      "score": 0.7246840000152588,
+      "detector_text": "Transaction Coordination Fee",
+      "detector_score": 0.9403612890413829,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 444,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          573.18,
+          1142.23
+        ],
+        [
+          1017.19,
+          1145.47
+        ],
+        [
+          1017.19,
+          1189.28
+        ],
+        [
+          573.18,
+          1186.03
+        ]
+      ]
+    },
+    {
+      "line_id": 30,
+      "text": "50",
+      "score": 0.9962364435195923,
+      "detector_text": "500",
+      "detector_score": 0.9982789754867554,
+      "crop_source": "rapidocr_box",
+      "crop_h": 51,
+      "crop_w": 71,
+      "line_height_px": 51,
+      "detector_box": [
+        [
+          1811.56,
+          1140.6
+        ],
+        [
+          1882.6,
+          1140.6
+        ],
+        [
+          1882.6,
+          1192.52
+        ],
+        [
+          1811.56,
+          1192.52
+        ]
+      ]
+    },
+    {
+      "line_id": 31,
+      "text": "560",
+      "score": 0.9086644053459167,
+      "detector_text": "500",
+      "detector_score": 0.9978364109992981,
+      "crop_source": "rapidocr_box",
+      "crop_h": 50,
+      "crop_w": 69,
+      "line_height_px": 50,
+      "detector_box": [
+        [
+          2173.23,
+          1142.23
+        ],
+        [
+          2242.66,
+          1142.23
+        ],
+        [
+          2242.66,
+          1192.52
+        ],
+        [
+          2173.23,
+          1192.52
+        ]
+      ]
+    },
+    {
+      "line_id": 32,
+      "text": "S tewr trng Fu",
+      "score": 0.8599593043327332,
+      "detector_text": "Showing Fee",
+      "detector_score": 0.9517332369630987,
+      "crop_source": "rapidocr_box",
+      "crop_h": 51,
+      "crop_w": 198,
+      "line_height_px": 51,
+      "detector_box": [
+        [
+          569.95,
+          1228.22
+        ],
+        [
+          768.54,
+          1231.46
+        ],
+        [
+          768.54,
+          1283.38
+        ],
+        [
+          569.95,
+          1280.14
+        ]
+      ]
+    },
+    {
+      "line_id": 33,
+      "text": "$6",
+      "score": 0.4475531578063965,
+      "detector_text": "50",
+      "detector_score": 0.9825696349143982,
+      "crop_source": "rapidocr_box",
+      "crop_h": 48,
+      "crop_w": 50,
+      "line_height_px": 48,
+      "detector_box": [
+        [
+          1832.55,
+          1231.46
+        ],
+        [
+          1882.6,
+          1231.46
+        ],
+        [
+          1882.6,
+          1280.14
+        ],
+        [
+          1832.55,
+          1280.14
+        ]
+      ]
+    },
+    {
+      "line_id": 34,
+      "text": "$0",
+      "score": 0.9512108564376831,
+      "detector_text": "50",
+      "detector_score": 0.9974991679191589,
+      "crop_source": "rapidocr_box",
+      "crop_h": 48,
+      "crop_w": 51,
+      "line_height_px": 48,
+      "detector_box": [
+        [
+          2190.99,
+          1231.46
+        ],
+        [
+          2242.66,
+          1231.46
+        ],
+        [
+          2242.66,
+          1280.14
+        ],
+        [
+          2190.99,
+          1280.14
+        ]
+      ]
+    },
+    {
+      "line_id": 35,
+      "text": "Malirn teru aroce Coordllinma ti lvonn foc",
+      "score": 0.7846315503120422,
+      "detector_text": "Maintenance Coordination Fee",
+      "detector_score": 0.9651700577565602,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 465,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          571.56,
+          1317.45
+        ],
+        [
+          1036.56,
+          1322.32
+        ],
+        [
+          1036.56,
+          1366.13
+        ],
+        [
+          571.56,
+          1361.26
+        ]
+      ]
+    },
+    {
+      "line_id": 36,
+      "text": "60",
+      "score": 0.5283591151237488,
+      "detector_text": "60",
+      "detector_score": 0.9951931834220886,
+      "crop_source": "rapidocr_box",
+      "crop_h": 48,
+      "crop_w": 50,
+      "line_height_px": 48,
+      "detector_box": [
+        [
+          1832.55,
+          1319.08
+        ],
+        [
+          1882.6,
+          1319.08
+        ],
+        [
+          1882.6,
+          1367.75
+        ],
+        [
+          1832.55,
+          1367.75
+        ]
+      ]
+    },
+    {
+      "line_id": 37,
+      "text": "60",
+      "score": 0.6625786423683167,
+      "detector_text": "60",
+      "detector_score": 0.9903504252433777,
+      "crop_source": "rapidocr_box",
+      "crop_h": 47,
+      "crop_w": 51,
+      "line_height_px": 47,
+      "detector_box": [
+        [
+          2190.99,
+          1319.08
+        ],
+        [
+          2242.66,
+          1319.08
+        ],
+        [
+          2242.66,
+          1366.13
+        ],
+        [
+          2190.99,
+          1366.13
+        ]
+      ]
+    },
+    {
+      "line_id": 38,
+      "text": "Sulbitotall",
+      "score": 0.9187524914741516,
+      "detector_text": "Subtotal",
+      "detector_score": 0.9854732155799866,
+      "crop_source": "rapidocr_box",
+      "crop_h": 50,
+      "crop_w": 166,
+      "line_height_px": 50,
+      "detector_box": [
+        [
+          1554.84,
+          2104.36
+        ],
+        [
+          1721.15,
+          2104.36
+        ],
+        [
+          1721.15,
+          2154.65
+        ],
+        [
+          1554.84,
+          2154.65
+        ]
+      ]
+    },
+    {
+      "line_id": 39,
+      "text": "6'0",
+      "score": 0.6966423988342285,
+      "detector_text": "610",
+      "detector_score": 0.9870536724726359,
+      "crop_source": "rapidocr_box",
+      "crop_h": 50,
+      "crop_w": 72,
+      "line_height_px": 50,
+      "detector_box": [
+        [
+          2171.61,
+          2107.6
+        ],
+        [
+          2244.27,
+          2107.6
+        ],
+        [
+          2244.27,
+          2157.9
+        ],
+        [
+          2171.61,
+          2157.9
+        ]
+      ]
+    },
+    {
+      "line_id": 40,
+      "text": "Sailliee: aox",
+      "score": 0.7492446899414062,
+      "detector_text": "Sales Tax",
+      "detector_score": 0.9734250704447428,
+      "crop_source": "rapidocr_box",
+      "crop_h": 50,
+      "crop_w": 179,
+      "line_height_px": 50,
+      "detector_box": [
+        [
+          1554.84,
+          2193.59
+        ],
+        [
+          1734.06,
+          2193.59
+        ],
+        [
+          1734.06,
+          2243.89
+        ],
+        [
+          1554.84,
+          2243.89
+        ]
+      ]
+    },
+    {
+      "line_id": 41,
+      "text": "0",
+      "score": 0.8561452627182007,
+      "detector_text": "0",
+      "detector_score": 0.5407671332359314,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 30,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          2210.36,
+          2198.46
+        ],
+        [
+          2241.04,
+          2198.46
+        ],
+        [
+          2241.04,
+          2240.64
+        ],
+        [
+          2210.36,
+          2240.64
+        ]
+      ]
+    },
+    {
+      "line_id": 42,
+      "text": "Toital",
+      "score": 0.983262836933136,
+      "detector_text": "Total",
+      "detector_score": 0.9817228078842163,
+      "crop_source": "rapidocr_box",
+      "crop_h": 51,
+      "crop_w": 104,
+      "line_height_px": 51,
+      "detector_box": [
+        [
+          1553.23,
+          2279.58
+        ],
+        [
+          1658.18,
+          2279.58
+        ],
+        [
+          1658.18,
+          2331.5
+        ],
+        [
+          1553.23,
+          2331.5
+        ]
+      ]
+    },
+    {
+      "line_id": 43,
+      "text": "6t0",
+      "score": 0.6501766443252563,
+      "detector_text": "610",
+      "detector_score": 0.9910005728403727,
+      "crop_source": "rapidocr_box",
+      "crop_h": 51,
+      "crop_w": 69,
+      "line_height_px": 51,
+      "detector_box": [
+        [
+          2173.23,
+          2282.83
+        ],
+        [
+          2242.66,
+          2282.83
+        ],
+        [
+          2242.66,
+          2334.75
+        ],
+        [
+          2173.23,
+          2334.75
+        ]
+      ]
+    },
+    {
+      "line_id": 44,
+      "text": "Iirrwo kbce Spbortepsihoraed ebyt Ccristtir an e chseva rr a",
+      "score": 0.6513727903366089,
+      "detector_text": "Imvoiceprepared by:CristinaEchevarria",
+      "detector_score": 0.9160767141226176,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 615,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          205.05,
+          2495.37
+        ],
+        [
+          820.21,
+          2493.75
+        ],
+        [
+          820.21,
+          2537.56
+        ],
+        [
+          205.05,
+          2539.18
+        ]
+      ]
+    },
+    {
+      "line_id": 45,
+      "text": "Te.uxs: urior ar i lishilti- itinvro lksty-. d li swmnu hxbrotcuzbonrdlintorlbernu l",
+      "score": 0.6811707615852356,
+      "detector_text": "Toaccept thisinvgice,sionhere andreturn:",
+      "detector_score": 0.8933009959757328,
+      "crop_source": "rapidocr_box",
+      "crop_h": 43,
+      "crop_w": 671,
+      "line_height_px": 43,
+      "detector_box": [
+        [
+          201.82,
+          2665.73
+        ],
+        [
+          873.49,
+          2667.36
+        ],
+        [
+          873.49,
+          2711.16
+        ],
+        [
+          201.82,
+          2709.54
+        ]
+      ]
+    },
+    {
+      "line_id": 46,
+      "text": "Tlhuurikyyyou (oryonumer bius ireeaas l",
+      "score": 0.7558929324150085,
+      "detector_text": "Thank you for your business!",
+      "detector_score": 0.9839354966367994,
+      "crop_source": "rapidocr_box",
+      "crop_h": 48,
+      "crop_w": 539,
+      "line_height_px": 48,
+      "detector_box": [
+        [
+          208.28,
+          2750.1
+        ],
+        [
+          747.55,
+          2750.1
+        ],
+        [
+          747.55,
+          2798.78
+        ],
+        [
+          208.28,
+          2798.78
+        ]
+      ]
+    },
+    {
+      "line_id": 47,
+      "text": "6.ccrautKcuxucoulkquxxiIlicquAdtitlbhuLlLrcowrxdlictKourct.aul",
+      "score": 0.757641613483429,
+      "detector_text": "Create an Involce_with Invoiceral",
+      "detector_score": 0.8539387077996226,
+      "crop_source": "rapidocr_box",
+      "crop_h": 47,
+      "crop_w": 616,
+      "line_height_px": 47,
+      "detector_box": [
+        [
+          1643.65,
+          3145.99
+        ],
+        [
+          2260.42,
+          3145.99
+        ],
+        [
+          2260.42,
+          3193.04
+        ],
+        [
+          1643.65,
+          3193.04
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "hardware": "GPU: NVIDIA L4",
+  "use_gpu": true,
+  "rec_model_dir": "/teamspace/studios/this_studio/models/PaddleOCR_Invoice_v2/rec_infer",
+  "sample_size": 100,
+  "warmup": 10,
+  "seed": 42,
+  "batch_1": {
+    "n": 100,
+    "median_ms_per_crop": 16.407950000029814,
+    "mean_ms_per_crop": 22.02774157002068,
+    "p90_ms_per_crop": 34.626678200015704,
+    "iqr_ms": [
+      14.49443999996447,
+      31.513295750016823
+    ],
+    "fps_from_median": 60.94606577897805
+  },
+  "batch_12": {
+    "n": 100,
+    "median_ms_per_crop": 3.390199083336635,
+    "mean_ms_per_crop": 3.674441420000676,
+    "p90_ms_per_crop": 3.7402260000097463,
+    "iqr_ms": [
+      3.134555416655379,
+      3.692112583337348
+    ],
+    "fps_from_median": 294.96792825977633
+  },
+  "measured_at": "2026-04-17T11:40:37"
+}

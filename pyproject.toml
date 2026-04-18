@@ -1,0 +1,32 @@
+[project]
+name = "work-promy"
+version = "0.1.0"
+description = "Notebook environment for invoice OCR, KIE, and Gradio demos managed with uv."
+readme = "AGENTS.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "numpy>=2.4,<3",
+    "pandas>=3.0,<4",
+    "matplotlib>=3.10,<4",
+    "opencv-python>=4.13,<5",
+    "pillow>=12.1,<13",
+    "scikit-image>=0.26,<0.27",
+    "scikit-learn>=1.8,<2",
+    "torch>=2.6,<2.7",
+    "transformers>=5.4,<6",
+    "datasets>=4.8,<5",
+    "evaluate>=0.4,<0.5",
+    "gradio>=6.10,<7",
+    "paddleocr>=3.4,<4",
+    "paddlex>=3.4,<4",
+    "paddlepaddle>=3.3,<4",
+    "python-dotenv>=1.2,<2",
+    "kagglehub>=1.0,<2",
+    "rapidocr-onnxruntime>=1.4,<2",
+    "jupyter>=1.1,<2",
+    "notebook>=7.5,<8",
+    "ipykernel>=7.2,<8",
+]
+
+[tool.uv]
+package = false

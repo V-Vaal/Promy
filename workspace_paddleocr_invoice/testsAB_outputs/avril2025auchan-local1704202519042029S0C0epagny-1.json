@@ -1,0 +1,2631 @@
+{
+  "image_path": "/teamspace/studios/this_studio/Promy_raw/datasets/promy_catalog_v1/avril2025auchan-local1704202519042029S0C0epagny-1.jpg",
+  "preprocess_meta": {
+    "shared_preprocessing": true,
+    "original_size": [
+      1064,
+      1500
+    ],
+    "processed_size": [
+      2480,
+      3496
+    ],
+    "deskew_angle": -0.9592004468474515
+  },
+  "time_dict": {
+    "rec": 0.1450202465057373,
+    "all": 0.1450202465057373
+  },
+  "rows": [
+    {
+      "line_id": 1,
+      "text": "'a X0u,uEgi",
+      "score": 0.6480749845504761,
+      "detector_text": "QAQUES",
+      "detector_score": 0.8857029378414154,
+      "crop_source": "rapidocr_box",
+      "crop_h": 501,
+      "crop_w": 1202,
+      "line_height_px": 501,
+      "detector_box": [
+        [
+          24.66,
+          0.0
+        ],
+        [
+          1225.91,
+          47.58
+        ],
+        [
+          1199.49,
+          548.01
+        ],
+        [
+          0.0,
+          484.58
+        ]
+      ]
+    },
+    {
+      "line_id": 2,
+      "text": "Duudi17ausamedi[9avril2025",
+      "score": 0.9686753153800964,
+      "detector_text": "Du jeudi 17 au samedi19 avril 2025",
+      "detector_score": 0.9527824433410869,
+      "crop_source": "rapidocr_box",
+      "crop_h": 52,
+      "crop_w": 709,
+      "line_height_px": 52,
+      "detector_box": [
+        [
+          900.06,
+          96.92
+        ],
+        [
+          1609.89,
+          109.25
+        ],
+        [
+          1609.89,
+          162.11
+        ],
+        [
+          900.06,
+          149.78
+        ]
+      ]
+    },
+    {
+      "line_id": 3,
+      "text": "LUND[iz",
+      "score": 0.7978711724281311,
+      "detector_text": "LUNDI21",
+      "detector_score": 0.9886915257998875,
+      "crop_source": "rapidocr_box",
+      "crop_h": 52,
+      "crop_w": 153,
+      "line_height_px": 52,
+      "detector_box": [
+        [
+          2124.2,
+          121.58
+        ],
+        [
+          2254.55,
+          202.64
+        ],
+        [
+          2226.36,
+          246.69
+        ],
+        [
+          2097.78,
+          165.64
+        ]
+      ]
+    },
+    {
+      "line_id": 4,
+      "text": "XCEp",
+      "score": 0.9750943779945374,
+      "detector_text": "XCEPT",
+      "detector_score": 0.9857351660728455,
+      "crop_source": "rapidocr_box",
+      "crop_h": 45,
+      "crop_w": 79,
+      "line_height_px": 45,
+      "detector_box": [
+        [
+          2192.9,
+          125.11
+        ],
+        [
+          2266.88,
+          155.06
+        ],
+        [
+          2249.26,
+          197.35
+        ],
+        [
+          2175.28,
+          167.4
+        ]
+      ]
+    },
+    {
+      "line_id": 5,
+      "text": "PT i neLLe:",
+      "score": 0.7229406237602234,
+      "detector_text": "PTIONNELLE",
+      "detector_score": 0.992470133304596,
+      "crop_source": "rapidocr_box",
+      "crop_h": 56,
+      "crop_w": 196,
+      "line_height_px": 56,
+      "detector_box": [
+        [
+          2251.02,
+          146.25
+        ],
+        [
+          2418.35,
+          250.22
+        ],
+        [
+          2388.41,
+          297.79
+        ],
+        [
+          2221.08,
+          193.83
+        ]
+      ]
+    },
+    {
+      "line_id": 6,
+      "text": "20h",
+      "score": 0.8837213516235352,
+      "detector_text": "20h",
+      "detector_score": 0.9950298468271891,
+      "crop_source": "rapidocr_box",
+      "crop_h": 41,
+      "crop_w": 72,
+      "line_height_px": 41,
+      "detector_box": [
+        [
+          2289.77,
+          280.17
+        ],
+        [
+          2353.18,
+          315.42
+        ],
+        [
+          2332.05,
+          350.66
+        ],
+        [
+          2270.4,
+          315.42
+        ]
+      ]
+    },
+    {
+      "line_id": 7,
+      "text": "Atlontigue/NordEst",
+      "score": 0.9773326516151428,
+      "detector_text": "Atlantique Nord Est",
+      "detector_score": 0.9601925674237703,
+      "crop_source": "rapidocr_box",
+      "crop_h": 88,
+      "crop_w": 514,
+      "line_height_px": 88,
+      "detector_box": [
+        [
+          119.77,
+          549.77
+        ],
+        [
+          634.09,
+          555.06
+        ],
+        [
+          634.09,
+          643.17
+        ],
+        [
+          119.77,
+          637.88
+        ]
+      ]
+    },
+    {
+      "line_id": 8,
+      "text": "Aitlon tiqule INord iaest",
+      "score": 0.8936084508895874,
+      "detector_text": "Atlantique INord Est",
+      "detector_score": 0.9219613328576088,
+      "crop_source": "rapidocr_box",
+      "crop_h": 93,
+      "crop_w": 519,
+      "line_height_px": 93,
+      "detector_box": [
+        [
+          796.14,
+          562.11
+        ],
+        [
+          1315.74,
+          581.49
+        ],
+        [
+          1312.22,
+          674.88
+        ],
+        [
+          792.61,
+          655.5
+        ]
+      ]
+    },
+    {
+      "line_id": 9,
+      "text": "EFRANGE",
+      "score": 0.9625614881515503,
+      "detector_text": "FRANCE",
+      "detector_score": 0.977102259794871,
+      "crop_source": "rapidocr_box",
+      "crop_h": 148,
+      "crop_w": 470,
+      "line_height_px": 148,
+      "detector_box": [
+        [
+          1530.62,
+          583.25
+        ],
+        [
+          2000.91,
+          597.35
+        ],
+        [
+          1995.62,
+          745.37
+        ],
+        [
+          1525.34,
+          731.27
+        ]
+      ]
+    },
+    {
+      "line_id": 10,
+      "text": "I",
+      "score": 0.5894467234611511,
+      "detector_text": "W",
+      "detector_score": 0.596257209777832,
+      "crop_source": "rapidocr_box",
+      "crop_h": 28,
+      "crop_w": 40,
+      "line_height_px": 28,
+      "detector_box": [
+        [
+          1356.25,
+          1083.69
+        ],
+        [
+          1396.76,
+          1083.69
+        ],
+        [
+          1396.76,
+          1111.88
+        ],
+        [
+          1356.25,
+          1111.88
+        ]
+      ]
+    },
+    {
+      "line_id": 11,
+      "text": "Lekg",
+      "score": 0.9764750003814697,
+      "detector_text": "Lekg",
+      "detector_score": 0.9881645888090134,
+      "crop_source": "rapidocr_box",
+      "crop_h": 44,
+      "crop_w": 92,
+      "line_height_px": 44,
+      "detector_box": [
+        [
+          170.85,
+          1118.93
+        ],
+        [
+          262.44,
+          1131.27
+        ],
+        [
+          257.16,
+          1175.32
+        ],
+        [
+          165.57,
+          1162.98
+        ]
+      ]
+    },
+    {
+      "line_id": 12,
+      "text": "Soit3",
+      "score": 0.9152754545211792,
+      "detector_text": "Soit3E",
+      "detector_score": 0.8983068267504374,
+      "crop_source": "rapidocr_box",
+      "crop_h": 54,
+      "crop_w": 155,
+      "line_height_px": 54,
+      "detector_box": [
+        [
+          1046.25,
+          1108.36
+        ],
+        [
+          1201.25,
+          1103.07
+        ],
+        [
+          1203.01,
+          1157.7
+        ],
+        [
+          1048.01,
+          1162.98
+        ]
+      ]
+    },
+    {
+      "line_id": 13,
+      "text": "'ekg",
+      "score": 0.8229806423187256,
+      "detector_text": "Lekg",
+      "detector_score": 0.9901318103075027,
+      "crop_source": "rapidocr_box",
+      "crop_h": 44,
+      "crop_w": 93,
+      "line_height_px": 44,
+      "detector_box": [
+        [
+          873.64,
+          1125.98
+        ],
+        [
+          965.23,
+          1141.84
+        ],
+        [
+          958.18,
+          1185.89
+        ],
+        [
+          866.59,
+          1168.27
+        ]
+      ]
+    },
+    {
+      "line_id": 14,
+      "text": "229",
+      "score": 0.9899381995201111,
+      "detector_text": "229",
+      "detector_score": 0.7978906035423279,
+      "crop_source": "rapidocr_box",
+      "crop_h": 118,
+      "crop_w": 211,
+      "line_height_px": 118,
+      "detector_box": [
+        [
+          109.2,
+          1161.22
+        ],
+        [
+          320.57,
+          1148.89
+        ],
+        [
+          327.61,
+          1266.95
+        ],
+        [
+          116.25,
+          1279.28
+        ]
+      ]
+    },
+    {
+      "line_id": 15,
+      "text": "296",
+      "score": 0.8028910160064697,
+      "detector_text": "2969",
+      "detector_score": 0.7221301980316639,
+      "crop_source": "rapidocr_box",
+      "crop_h": 124,
+      "crop_w": 218,
+      "line_height_px": 124,
+      "detector_box": [
+        [
+          804.94,
+          1173.56
+        ],
+        [
+          1021.59,
+          1148.89
+        ],
+        [
+          1035.68,
+          1272.23
+        ],
+        [
+          819.03,
+          1296.9
+        ]
+      ]
+    },
+    {
+      "line_id": 16,
+      "text": "Laportiomde1009",
+      "score": 0.9662305116653442,
+      "detector_text": "laportionde100g",
+      "detector_score": 0.9631693204243977,
+      "crop_source": "rapidocr_box",
+      "crop_h": 47,
+      "crop_w": 295,
+      "line_height_px": 47,
+      "detector_box": [
+        [
+          1049.77,
+          1162.98
+        ],
+        [
+          1345.68,
+          1168.27
+        ],
+        [
+          1345.68,
+          1215.85
+        ],
+        [
+          1049.77,
+          1210.56
+        ]
+      ]
+    },
+    {
+      "line_id": 17,
+      "text": "Lekg",
+      "score": 0.929970383644104,
+      "detector_text": "Lekg",
+      "detector_score": 0.9844723492860794,
+      "crop_source": "rapidocr_box",
+      "crop_h": 46,
+      "crop_w": 95,
+      "line_height_px": 46,
+      "detector_box": [
+        [
+          1594.03,
+          1222.9
+        ],
+        [
+          1689.15,
+          1235.23
+        ],
+        [
+          1683.86,
+          1281.04
+        ],
+        [
+          1588.75,
+          1268.71
+        ]
+      ]
+    },
+    {
+      "line_id": 18,
+      "text": "DOSDEcBILLAUD",
+      "score": 0.9695709943771362,
+      "detector_text": "DOSDECABILLAUD",
+      "detector_score": 0.9958644168717521,
+      "crop_source": "rapidocr_box",
+      "crop_h": 40,
+      "crop_w": 283,
+      "line_height_px": 40,
+      "detector_box": [
+        [
+          334.66,
+          1242.28
+        ],
+        [
+          618.24,
+          1247.56
+        ],
+        [
+          618.24,
+          1288.09
+        ],
+        [
+          334.66,
+          1282.81
+        ]
+      ]
+    },
+    {
+      "line_id": 19,
+      "text": "NoIxDESANT[AcQUES",
+      "score": 0.8408913612365723,
+      "detector_text": "NOIXDESAINT-JACQUES",
+      "detector_score": 0.993413159721776,
+      "crop_source": "rapidocr_box",
+      "crop_h": 40,
+      "crop_w": 362,
+      "line_height_px": 40,
+      "detector_box": [
+        [
+          1039.2,
+          1254.61
+        ],
+        [
+          1402.05,
+          1261.66
+        ],
+        [
+          1402.05,
+          1302.19
+        ],
+        [
+          1039.2,
+          1295.14
+        ]
+      ]
+    },
+    {
+      "line_id": 20,
+      "text": "ANEAUFRNCASS",
+      "score": 0.8769164681434631,
+      "detector_text": "AGNEAUFRANCAIS",
+      "detector_score": 0.9867375705923352,
+      "crop_source": "rapidocr_box",
+      "crop_h": 52,
+      "crop_w": 459,
+      "line_height_px": 52,
+      "detector_box": [
+        [
+          1893.47,
+          1242.28
+        ],
+        [
+          2353.18,
+          1249.33
+        ],
+        [
+          2353.18,
+          1302.19
+        ],
+        [
+          1893.47,
+          1295.14
+        ]
+      ]
+    },
+    {
+      "line_id": 21,
+      "text": "24'",
+      "score": 0.7787477970123291,
+      "detector_text": "245",
+      "detector_score": 0.9422191580136617,
+      "crop_source": "rapidocr_box",
+      "crop_h": 145,
+      "crop_w": 258,
+      "line_height_px": 145,
+      "detector_box": [
+        [
+          1507.73,
+          1270.47
+        ],
+        [
+          1764.89,
+          1244.04
+        ],
+        [
+          1778.98,
+          1388.53
+        ],
+        [
+          1521.82,
+          1414.96
+        ]
+      ]
+    },
+    {
+      "line_id": 22,
+      "text": "(Pectenmaximus)",
+      "score": 0.9676805138587952,
+      "detector_text": "(Pecten maximus)",
+      "detector_score": 0.9549124054610729,
+      "crop_source": "rapidocr_box",
+      "crop_h": 35,
+      "crop_w": 211,
+      "line_height_px": 35,
+      "detector_box": [
+        [
+          1039.2,
+          1289.85
+        ],
+        [
+          1250.57,
+          1295.14
+        ],
+        [
+          1250.57,
+          1330.38
+        ],
+        [
+          1039.2,
+          1325.1
+        ]
+      ]
+    },
+    {
+      "line_id": 23,
+      "text": "Atlantique NordEst",
+      "score": 0.9913161396980286,
+      "detector_text": "Atlantique Nord Est",
+      "detector_score": 0.9660931355074832,
+      "crop_source": "rapidocr_box",
+      "crop_h": 93,
+      "crop_w": 526,
+      "line_height_px": 93,
+      "detector_box": [
+        [
+          102.16,
+          1374.44
+        ],
+        [
+          628.81,
+          1381.48
+        ],
+        [
+          627.05,
+          1474.88
+        ],
+        [
+          100.4,
+          1467.83
+        ]
+      ]
+    },
+    {
+      "line_id": 24,
+      "text": "Pecheeser",
+      "score": 0.946639895439148,
+      "detector_text": "Pecheesen",
+      "detector_score": 0.9762021766768562,
+      "crop_source": "rapidocr_box",
+      "crop_h": 37,
+      "crop_w": 128,
+      "line_height_px": 37,
+      "detector_box": [
+        [
+          153.24,
+          1358.58
+        ],
+        [
+          281.82,
+          1362.1
+        ],
+        [
+          281.82,
+          1399.1
+        ],
+        [
+          153.24,
+          1395.58
+        ]
+      ]
+    },
+    {
+      "line_id": 25,
+      "text": "Eluev ier",
+      "score": 0.8350707292556763,
+      "detector_text": "Eleveen",
+      "detector_score": 0.9725979822022575,
+      "crop_source": "rapidocr_box",
+      "crop_h": 37,
+      "crop_w": 102,
+      "line_height_px": 37,
+      "detector_box": [
+        [
+          822.56,
+          1365.62
+        ],
+        [
+          924.72,
+          1369.15
+        ],
+        [
+          922.95,
+          1406.15
+        ],
+        [
+          820.8,
+          1402.63
+        ]
+      ]
+    },
+    {
+      "line_id": 26,
+      "text": "NOrvege",
+      "score": 0.9644872546195984,
+      "detector_text": "Norvege",
+      "detector_score": 0.9566420061247689,
+      "crop_source": "rapidocr_box",
+      "crop_h": 67,
+      "crop_w": 206,
+      "line_height_px": 67,
+      "detector_box": [
+        [
+          792.61,
+          1402.63
+        ],
+        [
+          998.69,
+          1416.73
+        ],
+        [
+          993.41,
+          1483.69
+        ],
+        [
+          787.33,
+          1469.59
+        ]
+      ]
+    },
+    {
+      "line_id": 27,
+      "text": "aGNEUFRNCS",
+      "score": 0.9123703837394714,
+      "detector_text": "AGNEAUFRANCAIS:",
+      "detector_score": 0.9873383243878683,
+      "crop_source": "rapidocr_box",
+      "crop_h": 45,
+      "crop_w": 396,
+      "line_height_px": 45,
+      "detector_box": [
+        [
+          1513.01,
+          1432.58
+        ],
+        [
+          1909.32,
+          1437.87
+        ],
+        [
+          1909.32,
+          1483.69
+        ],
+        [
+          1513.01,
+          1478.4
+        ]
+      ]
+    },
+    {
+      "line_id": 28,
+      "text": "GIGOT**ENTIERAVEco",
+      "score": 0.8821997046470642,
+      "detector_text": "GIGOT***ENTIERAVECOS",
+      "detector_score": 0.9784401148557663,
+      "crop_source": "rapidocr_box",
+      "crop_h": 47,
+      "crop_w": 496,
+      "line_height_px": 47,
+      "detector_box": [
+        [
+          1513.01,
+          1478.4
+        ],
+        [
+          2009.72,
+          1487.21
+        ],
+        [
+          2009.72,
+          1534.79
+        ],
+        [
+          1513.01,
+          1525.98
+        ]
+      ]
+    },
+    {
+      "line_id": 29,
+      "text": "Airbtirx",
+      "score": 0.870573878288269,
+      "detector_text": "Arotirx1",
+      "detector_score": 0.967709444463253,
+      "crop_source": "rapidocr_box",
+      "crop_h": 47,
+      "crop_w": 140,
+      "line_height_px": 47,
+      "detector_box": [
+        [
+          1511.25,
+          1527.74
+        ],
+        [
+          1652.16,
+          1531.26
+        ],
+        [
+          1650.4,
+          1578.84
+        ],
+        [
+          1509.49,
+          1575.31
+        ]
+      ]
+    },
+    {
+      "line_id": 30,
+      "text": "Fabrfiquee dars ro",
+      "score": 0.9362236857414246,
+      "detector_text": "Fabriquee dansnos",
+      "detector_score": 0.9655855122734519,
+      "crop_source": "rapidocr_box",
+      "crop_h": 37,
+      "crop_w": 230,
+      "line_height_px": 37,
+      "detector_box": [
+        [
+          1528.86,
+          1691.61
+        ],
+        [
+          1759.6,
+          1696.9
+        ],
+        [
+          1759.6,
+          1733.9
+        ],
+        [
+          1528.86,
+          1728.62
+        ]
+      ]
+    },
+    {
+      "line_id": 31,
+      "text": "Ateliers",
+      "score": 0.9889298677444458,
+      "detector_text": "Ateliers",
+      "detector_score": 0.9675108715891838,
+      "crop_source": "rapidocr_box",
+      "crop_h": 95,
+      "crop_w": 235,
+      "line_height_px": 95,
+      "detector_box": [
+        [
+          1476.02,
+          1725.09
+        ],
+        [
+          1710.28,
+          1744.48
+        ],
+        [
+          1703.24,
+          1839.63
+        ],
+        [
+          1468.98,
+          1820.25
+        ]
+      ]
+    },
+    {
+      "line_id": 32,
+      "text": "Pou vrei in o ttes",
+      "score": 0.7899284362792969,
+      "detector_text": "Pauvre en aretes",
+      "detector_score": 0.9217729158699512,
+      "crop_source": "rapidocr_box",
+      "crop_h": 29,
+      "crop_w": 181,
+      "line_height_px": 29,
+      "detector_box": [
+        [
+          1123.75,
+          1827.29
+        ],
+        [
+          1305.17,
+          1830.82
+        ],
+        [
+          1305.17,
+          1860.77
+        ],
+        [
+          1123.75,
+          1857.25
+        ]
+      ]
+    },
+    {
+      "line_id": 33,
+      "text": "Lekg",
+      "score": 0.9399838447570801,
+      "detector_text": "Lekg",
+      "detector_score": 0.9903317093849182,
+      "crop_source": "rapidocr_box",
+      "crop_h": 44,
+      "crop_w": 84,
+      "line_height_px": 44,
+      "detector_box": [
+        [
+          179.66,
+          1938.31
+        ],
+        [
+          264.2,
+          1941.83
+        ],
+        [
+          262.44,
+          1985.88
+        ],
+        [
+          177.9,
+          1982.36
+        ]
+      ]
+    },
+    {
+      "line_id": 34,
+      "text": "17",
+      "score": 0.9999942183494568,
+      "detector_text": "17",
+      "detector_score": 0.9993569552898407,
+      "crop_source": "rapidocr_box",
+      "crop_h": 109,
+      "crop_w": 112,
+      "line_height_px": 109,
+      "detector_box": [
+        [
+          137.39,
+          1977.07
+        ],
+        [
+          250.11,
+          1977.07
+        ],
+        [
+          250.11,
+          2086.32
+        ],
+        [
+          137.39,
+          2086.32
+        ]
+      ]
+    },
+    {
+      "line_id": 35,
+      "text": "99",
+      "score": 0.8757855296134949,
+      "detector_text": "99",
+      "detector_score": 0.9941941499710083,
+      "crop_source": "rapidocr_box",
+      "crop_h": 54,
+      "crop_w": 56,
+      "line_height_px": 54,
+      "detector_box": [
+        [
+          251.88,
+          2007.03
+        ],
+        [
+          308.24,
+          2007.03
+        ],
+        [
+          308.24,
+          2061.65
+        ],
+        [
+          251.88,
+          2061.65
+        ]
+      ]
+    },
+    {
+      "line_id": 36,
+      "text": "25",
+      "score": 0.9999816417694092,
+      "detector_text": "25*",
+      "detector_score": 0.7307823797067007,
+      "crop_source": "rapidocr_box",
+      "crop_h": 82,
+      "crop_w": 116,
+      "line_height_px": 82,
+      "detector_box": [
+        [
+          780.28,
+          1999.98
+        ],
+        [
+          896.53,
+          1999.98
+        ],
+        [
+          896.53,
+          2082.8
+        ],
+        [
+          780.28,
+          2082.8
+        ]
+      ]
+    },
+    {
+      "line_id": 37,
+      "text": "116",
+      "score": 0.6568666100502014,
+      "detector_text": "11%",
+      "detector_score": 0.6380435973405838,
+      "crop_source": "rapidocr_box",
+      "crop_h": 54,
+      "crop_w": 88,
+      "line_height_px": 54,
+      "detector_box": [
+        [
+          942.33,
+          2005.27
+        ],
+        [
+          1030.4,
+          2005.27
+        ],
+        [
+          1030.4,
+          2059.89
+        ],
+        [
+          942.33,
+          2059.89
+        ]
+      ]
+    },
+    {
+      "line_id": 38,
+      "text": "QUEUEDELoT",
+      "score": 0.9519221186637878,
+      "detector_text": "QUEUEDELOTTE",
+      "detector_score": 0.99424942334493,
+      "crop_source": "rapidocr_box",
+      "crop_h": 40,
+      "crop_w": 227,
+      "line_height_px": 40,
+      "detector_box": [
+        [
+          343.47,
+          2051.08
+        ],
+        [
+          570.68,
+          2054.6
+        ],
+        [
+          570.68,
+          2095.13
+        ],
+        [
+          343.47,
+          2091.61
+        ]
+      ]
+    },
+    {
+      "line_id": 39,
+      "text": "10",
+      "score": 0.7325986623764038,
+      "detector_text": "10%",
+      "detector_score": 0.7665308713912964,
+      "crop_source": "rapidocr_box",
+      "crop_h": 84,
+      "crop_w": 151,
+      "line_height_px": 84,
+      "detector_box": [
+        [
+          907.1,
+          2065.18
+        ],
+        [
+          1058.58,
+          2056.37
+        ],
+        [
+          1063.86,
+          2140.95
+        ],
+        [
+          912.39,
+          2149.76
+        ]
+      ]
+    },
+    {
+      "line_id": 40,
+      "text": "'PAvsbEsAuMoN",
+      "score": 0.8101643919944763,
+      "detector_text": "4PAVESDESAUMON",
+      "detector_score": 0.9849076398781368,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 274,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          1065.62,
+          2049.32
+        ],
+        [
+          1340.4,
+          2054.6
+        ],
+        [
+          1340.4,
+          2096.9
+        ],
+        [
+          1065.62,
+          2091.61
+        ]
+      ]
+    },
+    {
+      "line_id": 41,
+      "text": "Lapiecede500ga2kg",
+      "score": 0.995694100856781,
+      "detector_text": "Lapiecede500ga2kg",
+      "detector_score": 0.9801963217118207,
+      "crop_source": "rapidocr_box",
+      "crop_h": 40,
+      "crop_w": 276,
+      "line_height_px": 40,
+      "detector_box": [
+        [
+          341.7,
+          2086.32
+        ],
+        [
+          618.24,
+          2093.37
+        ],
+        [
+          618.24,
+          2133.9
+        ],
+        [
+          341.7,
+          2126.85
+        ]
+      ]
+    },
+    {
+      "line_id": 42,
+      "text": "uneuro hedticokt.",
+      "score": 0.6904937028884888,
+      "detector_text": "immediote",
+      "detector_score": 0.9705719815360175,
+      "crop_source": "rapidocr_box",
+      "crop_h": 35,
+      "crop_w": 116,
+      "line_height_px": 35,
+      "detector_box": [
+        [
+          782.05,
+          2089.85
+        ],
+        [
+          898.3,
+          2089.85
+        ],
+        [
+          898.3,
+          2125.09
+        ],
+        [
+          782.05,
+          2125.09
+        ]
+      ]
+    },
+    {
+      "line_id": 43,
+      "text": "ATLANQUE",
+      "score": 0.8856469392776489,
+      "detector_text": "ATLANTIQUE",
+      "detector_score": 0.9938732385635376,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 179,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          1065.62,
+          2084.56
+        ],
+        [
+          1245.28,
+          2088.08
+        ],
+        [
+          1245.28,
+          2130.38
+        ],
+        [
+          1065.62,
+          2126.85
+        ]
+      ]
+    },
+    {
+      "line_id": 44,
+      "text": "SoltLe hug:2Ok98",
+      "score": 0.7916358709335327,
+      "detector_text": "Soit lekg:20698",
+      "detector_score": 0.9181671738624573,
+      "crop_source": "rapidocr_box",
+      "crop_h": 37,
+      "crop_w": 172,
+      "line_height_px": 37,
+      "detector_box": [
+        [
+          1065.62,
+          2119.8
+        ],
+        [
+          1238.24,
+          2123.33
+        ],
+        [
+          1238.24,
+          2160.33
+        ],
+        [
+          1065.62,
+          2156.81
+        ]
+      ]
+    },
+    {
+      "line_id": 45,
+      "text": "BiERANCE",
+      "score": 0.963018000125885,
+      "detector_text": "FRANCE",
+      "detector_score": 0.9837573568026224,
+      "crop_source": "rapidocr_box",
+      "crop_h": 96,
+      "crop_w": 288,
+      "line_height_px": 96,
+      "detector_box": [
+        [
+          100.4,
+          2211.43
+        ],
+        [
+          389.26,
+          2220.24
+        ],
+        [
+          385.74,
+          2317.16
+        ],
+        [
+          96.88,
+          2308.35
+        ]
+      ]
+    },
+    {
+      "line_id": 46,
+      "text": "'FRANCE",
+      "score": 0.923051655292511,
+      "detector_text": "FRANCE",
+      "detector_score": 0.9963828325271606,
+      "crop_source": "rapidocr_box",
+      "crop_h": 100,
+      "crop_w": 281,
+      "line_height_px": 100,
+      "detector_box": [
+        [
+          794.38,
+          2229.05
+        ],
+        [
+          1076.19,
+          2237.86
+        ],
+        [
+          1072.67,
+          2338.3
+        ],
+        [
+          790.85,
+          2329.49
+        ]
+      ]
+    },
+    {
+      "line_id": 47,
+      "text": "25",
+      "score": 0.999999463558197,
+      "detector_text": "25",
+      "detector_score": 0.9996768236160278,
+      "crop_source": "rapidocr_box",
+      "crop_h": 91,
+      "crop_w": 149,
+      "line_height_px": 91,
+      "detector_box": [
+        [
+          1495.4,
+          2285.44
+        ],
+        [
+          1645.11,
+          2285.44
+        ],
+        [
+          1645.11,
+          2377.07
+        ],
+        [
+          1495.4,
+          2377.07
+        ]
+      ]
+    },
+    {
+      "line_id": 48,
+      "text": "$pertonmu",
+      "score": 0.8577006459236145,
+      "detector_text": "Spersonnes",
+      "detector_score": 0.9185796946287155,
+      "crop_source": "rapidocr_box",
+      "crop_h": 29,
+      "crop_w": 128,
+      "line_height_px": 29,
+      "detector_box": [
+        [
+          1683.86,
+          2269.58
+        ],
+        [
+          1812.44,
+          2269.58
+        ],
+        [
+          1812.44,
+          2299.54
+        ],
+        [
+          1683.86,
+          2299.54
+        ]
+      ]
+    },
+    {
+      "line_id": 49,
+      "text": "14,/x",
+      "score": 0.7625340819358826,
+      "detector_text": "14",
+      "detector_score": 0.9948423504829407,
+      "crop_source": "rapidocr_box",
+      "crop_h": 65,
+      "crop_w": 119,
+      "line_height_px": 65,
+      "detector_box": [
+        [
+          1683.86,
+          2292.49
+        ],
+        [
+          1803.64,
+          2292.49
+        ],
+        [
+          1803.64,
+          2357.69
+        ],
+        [
+          1683.86,
+          2357.69
+        ]
+      ]
+    },
+    {
+      "line_id": 50,
+      "text": "PvLovAUX",
+      "score": 0.8533303737640381,
+      "detector_text": "PAVLOVAAUX",
+      "detector_score": 0.9954952239990235,
+      "crop_source": "rapidocr_box",
+      "crop_h": 37,
+      "crop_w": 218,
+      "line_height_px": 37,
+      "detector_box": [
+        [
+          1840.62,
+          2280.15
+        ],
+        [
+          2059.03,
+          2283.68
+        ],
+        [
+          2059.03,
+          2320.68
+        ],
+        [
+          1840.62,
+          2317.16
+        ]
+      ]
+    },
+    {
+      "line_id": 51,
+      "text": "FRUITSEXoTIQUE",
+      "score": 0.9149220585823059,
+      "detector_text": "FRUITSEXOTIQUES",
+      "detector_score": 0.9954204161961874,
+      "crop_source": "rapidocr_box",
+      "crop_h": 40,
+      "crop_w": 294,
+      "line_height_px": 40,
+      "detector_box": [
+        [
+          1838.86,
+          2311.87
+        ],
+        [
+          2133.01,
+          2318.92
+        ],
+        [
+          2133.01,
+          2359.45
+        ],
+        [
+          1838.86,
+          2352.4
+        ]
+      ]
+    },
+    {
+      "line_id": 52,
+      "text": "QUAUFRUITSRoUGES",
+      "score": 0.947411298751831,
+      "detector_text": "OUAUXFRUITSROUGES",
+      "detector_score": 0.98947674036026,
+      "crop_source": "rapidocr_box",
+      "crop_h": 40,
+      "crop_w": 368,
+      "line_height_px": 40,
+      "detector_box": [
+        [
+          1837.1,
+          2347.11
+        ],
+        [
+          2205.23,
+          2354.16
+        ],
+        [
+          2205.23,
+          2394.69
+        ],
+        [
+          1837.1,
+          2387.64
+        ]
+      ]
+    },
+    {
+      "line_id": 53,
+      "text": "(deremm ise",
+      "score": 0.8791199326515198,
+      "detector_text": "deremise",
+      "detector_score": 0.9915998727083206,
+      "crop_source": "rapidocr_box",
+      "crop_h": 35,
+      "crop_w": 126,
+      "line_height_px": 35,
+      "detector_box": [
+        [
+          1500.68,
+          2366.5
+        ],
+        [
+          1627.5,
+          2370.02
+        ],
+        [
+          1627.5,
+          2405.26
+        ],
+        [
+          1500.68,
+          2401.74
+        ]
+      ]
+    },
+    {
+      "line_id": 54,
+      "text": "12",
+      "score": 0.9999786615371704,
+      "detector_text": "12",
+      "detector_score": 0.9982011318206787,
+      "crop_source": "rapidocr_box",
+      "crop_h": 88,
+      "crop_w": 128,
+      "line_height_px": 88,
+      "detector_box": [
+        [
+          1657.44,
+          2366.5
+        ],
+        [
+          1786.02,
+          2366.5
+        ],
+        [
+          1786.02,
+          2454.6
+        ],
+        [
+          1657.44,
+          2454.6
+        ]
+      ]
+    },
+    {
+      "line_id": 55,
+      "text": "K",
+      "score": 0.2922978103160858,
+      "detector_text": "E",
+      "detector_score": 0.5544074773788452,
+      "crop_source": "rapidocr_box",
+      "crop_h": 24,
+      "crop_w": 21,
+      "line_height_px": 24,
+      "detector_box": [
+        [
+          1777.22,
+          2377.07
+        ],
+        [
+          1798.35,
+          2377.07
+        ],
+        [
+          1798.35,
+          2401.74
+        ],
+        [
+          1777.22,
+          2401.74
+        ]
+      ]
+    },
+    {
+      "line_id": 56,
+      "text": "6personines",
+      "score": 0.990291178226471,
+      "detector_text": "6personnes.",
+      "detector_score": 0.938890432769602,
+      "crop_source": "rapidocr_box",
+      "crop_h": 37,
+      "crop_w": 148,
+      "line_height_px": 37,
+      "detector_box": [
+        [
+          1838.86,
+          2382.35
+        ],
+        [
+          1986.82,
+          2387.64
+        ],
+        [
+          1985.06,
+          2424.65
+        ],
+        [
+          1837.1,
+          2419.36
+        ]
+      ]
+    },
+    {
+      "line_id": 57,
+      "text": "95",
+      "score": 0.9994617700576782,
+      "detector_text": "95",
+      "detector_score": 0.9992730915546417,
+      "crop_source": "rapidocr_box",
+      "crop_h": 35,
+      "crop_w": 44,
+      "line_height_px": 35,
+      "detector_box": [
+        [
+          1773.69,
+          2408.79
+        ],
+        [
+          1817.73,
+          2408.79
+        ],
+        [
+          1817.73,
+          2444.03
+        ],
+        [
+          1773.69,
+          2444.03
+        ]
+      ]
+    },
+    {
+      "line_id": 58,
+      "text": "525g",
+      "score": 0.8998980522155762,
+      "detector_text": "525g",
+      "detector_score": 0.9645770788192749,
+      "crop_source": "rapidocr_box",
+      "crop_h": 38,
+      "crop_w": 74,
+      "line_height_px": 38,
+      "detector_box": [
+        [
+          1838.86,
+          2408.79
+        ],
+        [
+          1912.84,
+          2412.31
+        ],
+        [
+          1911.08,
+          2451.08
+        ],
+        [
+          1837.1,
+          2447.55
+        ]
+      ]
+    },
+    {
+      "line_id": 59,
+      "text": "Soitiekg 24.67",
+      "score": 0.9498663544654846,
+      "detector_text": "Soit lekg24.67",
+      "detector_score": 0.9585658056395394,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 184,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          1835.34,
+          2440.5
+        ],
+        [
+          2020.28,
+          2444.03
+        ],
+        [
+          2020.28,
+          2486.32
+        ],
+        [
+          1835.34,
+          2482.79
+        ]
+      ]
+    },
+    {
+      "line_id": 60,
+      "text": "$QUI",
+      "score": 0.7301729917526245,
+      "detector_text": "GGUFS",
+      "detector_score": 0.6373803615570068,
+      "crop_source": "rapidocr_box",
+      "crop_h": 30,
+      "crop_w": 95,
+      "line_height_px": 30,
+      "detector_box": [
+        [
+          928.24,
+          2463.41
+        ],
+        [
+          1023.35,
+          2466.94
+        ],
+        [
+          1021.59,
+          2496.89
+        ],
+        [
+          926.48,
+          2493.37
+        ]
+      ]
+    },
+    {
+      "line_id": 61,
+      "text": "AtOwr",
+      "score": 0.7631019949913025,
+      "detector_text": "27.04.7",
+      "detector_score": 0.7333610653877258,
+      "crop_source": "rapidocr_box",
+      "crop_h": 24,
+      "crop_w": 54,
+      "line_height_px": 24,
+      "detector_box": [
+        [
+          937.05,
+          2546.23
+        ],
+        [
+          991.65,
+          2546.23
+        ],
+        [
+          991.65,
+          2570.9
+        ],
+        [
+          937.05,
+          2570.9
+        ]
+      ]
+    },
+    {
+      "line_id": 62,
+      "text": "BLOcDEFoIE",
+      "score": 0.9618477821350098,
+      "detector_text": "BLOCDEFOIE",
+      "detector_score": 0.9958858668804169,
+      "crop_source": "rapidocr_box",
+      "crop_h": 37,
+      "crop_w": 207,
+      "line_height_px": 37,
+      "detector_box": [
+        [
+          392.78,
+          2586.76
+        ],
+        [
+          600.62,
+          2590.28
+        ],
+        [
+          600.62,
+          2627.29
+        ],
+        [
+          392.78,
+          2623.76
+        ]
+      ]
+    },
+    {
+      "line_id": 63,
+      "text": "s",
+      "score": 0.6803653836250305,
+      "detector_text": "3",
+      "detector_score": 0.977912425994873,
+      "crop_source": "rapidocr_box",
+      "crop_h": 52,
+      "crop_w": 45,
+      "line_height_px": 52,
+      "detector_box": [
+        [
+          140.91,
+          2630.81
+        ],
+        [
+          186.7,
+          2630.81
+        ],
+        [
+          186.7,
+          2683.67
+        ],
+        [
+          140.91,
+          2683.67
+        ]
+      ]
+    },
+    {
+      "line_id": 64,
+      "text": "181,",
+      "score": 0.7230466604232788,
+      "detector_text": "18",
+      "detector_score": 0.9859578609466553,
+      "crop_source": "rapidocr_box",
+      "crop_h": 52,
+      "crop_w": 96,
+      "line_height_px": 52,
+      "detector_box": [
+        [
+          265.97,
+          2622.0
+        ],
+        [
+          362.84,
+          2622.0
+        ],
+        [
+          362.84,
+          2674.86
+        ],
+        [
+          265.97,
+          2674.86
+        ]
+      ]
+    },
+    {
+      "line_id": 65,
+      "text": "GRSEcaNRD",
+      "score": 0.9108026027679443,
+      "detector_text": "GRASDECANARD",
+      "detector_score": 0.9949056257804235,
+      "crop_source": "rapidocr_box",
+      "crop_h": 35,
+      "crop_w": 271,
+      "line_height_px": 35,
+      "detector_box": [
+        [
+          392.78,
+          2623.76
+        ],
+        [
+          664.03,
+          2627.29
+        ],
+        [
+          664.03,
+          2662.53
+        ],
+        [
+          392.78,
+          2659.0
+        ]
+      ]
+    },
+    {
+      "line_id": 66,
+      "text": "LEMBLEMAOuE",
+      "score": 0.9394726157188416,
+      "detector_text": "L'EMBLEMATIQUE",
+      "detector_score": 0.9706406806196485,
+      "crop_source": "rapidocr_box",
+      "crop_h": 40,
+      "crop_w": 273,
+      "line_height_px": 40,
+      "detector_box": [
+        [
+          389.26,
+          2655.48
+        ],
+        [
+          662.27,
+          2662.53
+        ],
+        [
+          662.27,
+          2703.06
+        ],
+        [
+          389.26,
+          2696.01
+        ]
+      ]
+    },
+    {
+      "line_id": 67,
+      "text": "iiFRANCE",
+      "score": 0.940658450126648,
+      "detector_text": "FRANCE",
+      "detector_score": 0.9738542139530182,
+      "crop_source": "rapidocr_box",
+      "crop_h": 126,
+      "crop_w": 394,
+      "line_height_px": 126,
+      "detector_box": [
+        [
+          1669.77,
+          2644.91
+        ],
+        [
+          2064.32,
+          2659.0
+        ],
+        [
+          2059.03,
+          2785.88
+        ],
+        [
+          1664.49,
+          2771.78
+        ]
+      ]
+    },
+    {
+      "line_id": 68,
+      "text": "Les6",
+      "score": 0.9983065128326416,
+      "detector_text": "Les6",
+      "detector_score": 0.9792963564395905,
+      "crop_source": "rapidocr_box",
+      "crop_h": 38,
+      "crop_w": 82,
+      "line_height_px": 38,
+      "detector_box": [
+        [
+          877.16,
+          2671.34
+        ],
+        [
+          959.94,
+          2674.86
+        ],
+        [
+          958.18,
+          2713.63
+        ],
+        [
+          875.4,
+          2710.1
+        ]
+      ]
+    },
+    {
+      "line_id": 69,
+      "text": "cleSrewn isu",
+      "score": 0.6926745176315308,
+      "detector_text": "deremise",
+      "detector_score": 0.9352746233344078,
+      "crop_source": "rapidocr_box",
+      "crop_h": 24,
+      "crop_w": 89,
+      "line_height_px": 24,
+      "detector_box": [
+        [
+          123.3,
+          2699.53
+        ],
+        [
+          213.12,
+          2699.53
+        ],
+        [
+          213.12,
+          2724.2
+        ],
+        [
+          123.3,
+          2724.2
+        ]
+      ]
+    },
+    {
+      "line_id": 70,
+      "text": "EENLARNAudIE",
+      "score": 0.824540376663208,
+      "detector_text": "JEANLARNAUDIE",
+      "detector_score": 0.9919697000430181,
+      "crop_source": "rapidocr_box",
+      "crop_h": 40,
+      "crop_w": 276,
+      "line_height_px": 40,
+      "detector_box": [
+        [
+          385.74,
+          2690.72
+        ],
+        [
+          662.27,
+          2696.01
+        ],
+        [
+          662.27,
+          2736.54
+        ],
+        [
+          385.74,
+          2731.25
+        ]
+      ]
+    },
+    {
+      "line_id": 71,
+      "text": "Iemurrue ellico te",
+      "score": 0.6903747320175171,
+      "detector_text": "mmediote",
+      "detector_score": 0.949358344078064,
+      "crop_source": "rapidocr_box",
+      "crop_h": 29,
+      "crop_w": 105,
+      "line_height_px": 29,
+      "detector_box": [
+        [
+          118.01,
+          2718.92
+        ],
+        [
+          223.69,
+          2718.92
+        ],
+        [
+          223.69,
+          2748.87
+        ],
+        [
+          118.01,
+          2748.87
+        ]
+      ]
+    },
+    {
+      "line_id": 72,
+      "text": "3",
+      "score": 0.9999780654907227,
+      "detector_text": "30",
+      "detector_score": 0.8778654038906097,
+      "crop_source": "rapidocr_box",
+      "crop_h": 118,
+      "crop_w": 150,
+      "line_height_px": 118,
+      "detector_box": [
+        [
+          836.65,
+          2706.58
+        ],
+        [
+          986.36,
+          2690.72
+        ],
+        [
+          998.69,
+          2808.78
+        ],
+        [
+          848.98,
+          2824.64
+        ]
+      ]
+    },
+    {
+      "line_id": 73,
+      "text": "170g",
+      "score": 0.9093927145004272,
+      "detector_text": "170g",
+      "detector_score": 0.9676832556724548,
+      "crop_source": "rapidocr_box",
+      "crop_h": 38,
+      "crop_w": 83,
+      "line_height_px": 38,
+      "detector_box": [
+        [
+          387.5,
+          2727.73
+        ],
+        [
+          470.28,
+          2734.77
+        ],
+        [
+          466.76,
+          2773.54
+        ],
+        [
+          383.98,
+          2766.49
+        ]
+      ]
+    },
+    {
+      "line_id": 74,
+      "text": "6oEUFSCUITSTEINTEs",
+      "score": 0.927541196346283,
+      "detector_text": "6OEUFSCUITSTEINTES",
+      "detector_score": 0.9753935403294034,
+      "crop_source": "rapidocr_box",
+      "crop_h": 40,
+      "crop_w": 308,
+      "line_height_px": 40,
+      "detector_box": [
+        [
+          1021.59,
+          2747.11
+        ],
+        [
+          1329.83,
+          2750.63
+        ],
+        [
+          1329.83,
+          2791.16
+        ],
+        [
+          1021.59,
+          2787.64
+        ]
+      ]
+    },
+    {
+      "line_id": 75,
+      "text": "SoitleKg :94606",
+      "score": 0.9275946021080017,
+      "detector_text": "Soit lekg:9406",
+      "detector_score": 0.9676430480820792,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 234,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          387.5,
+          2764.73
+        ],
+        [
+          621.76,
+          2768.25
+        ],
+        [
+          621.76,
+          2810.54
+        ],
+        [
+          387.5,
+          2807.02
+        ]
+      ]
+    },
+    {
+      "line_id": 76,
+      "text": "Soit toeuf ocs8",
+      "score": 0.8883002996444702,
+      "detector_text": "Soitloeuf:058",
+      "detector_score": 0.8640393775243026,
+      "crop_source": "rapidocr_box",
+      "crop_h": 35,
+      "crop_w": 169,
+      "line_height_px": 35,
+      "detector_box": [
+        [
+          1023.35,
+          2778.83
+        ],
+        [
+          1192.44,
+          2778.83
+        ],
+        [
+          1192.44,
+          2814.07
+        ],
+        [
+          1023.35,
+          2814.07
+        ]
+      ]
+    },
+    {
+      "line_id": 77,
+      "text": ".'uchan",
+      "score": 0.8496243357658386,
+      "detector_text": "uchan",
+      "detector_score": 0.9947379231452942,
+      "crop_source": "rapidocr_box",
+      "crop_h": 162,
+      "crop_w": 697,
+      "line_height_px": 162,
+      "detector_box": [
+        [
+          250.11,
+          2858.12
+        ],
+        [
+          945.85,
+          2910.98
+        ],
+        [
+          933.52,
+          3073.1
+        ],
+        [
+          237.78,
+          3020.23
+        ]
+      ]
+    },
+    {
+      "line_id": 78,
+      "text": "Labarquette",
+      "score": 0.9769130349159241,
+      "detector_text": "Labarquette",
+      "detector_score": 0.9850117455829274,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 190,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          1513.01,
+          2889.84
+        ],
+        [
+          1703.24,
+          2896.89
+        ],
+        [
+          1701.48,
+          2939.18
+        ],
+        [
+          1511.25,
+          2932.13
+        ]
+      ]
+    },
+    {
+      "line_id": 79,
+      "text": "26",
+      "score": 0.9872118234634399,
+      "detector_text": "269",
+      "detector_score": 0.6215784549713135,
+      "crop_source": "rapidocr_box",
+      "crop_h": 116,
+      "crop_w": 148,
+      "line_height_px": 116,
+      "detector_box": [
+        [
+          1527.1,
+          2937.42
+        ],
+        [
+          1673.3,
+          2910.98
+        ],
+        [
+          1694.43,
+          3025.52
+        ],
+        [
+          1548.24,
+          3051.95
+        ]
+      ]
+    },
+    {
+      "line_id": 80,
+      "text": "Iechoilebon",
+      "score": 0.9579591751098633,
+      "detector_text": "le choix,le bon.",
+      "detector_score": 0.9324614927172661,
+      "crop_source": "rapidocr_box",
+      "crop_h": 63,
+      "crop_w": 532,
+      "line_height_px": 63,
+      "detector_box": [
+        [
+          399.83,
+          3043.14
+        ],
+        [
+          931.76,
+          3053.71
+        ],
+        [
+          930.0,
+          3117.15
+        ],
+        [
+          398.07,
+          3106.58
+        ]
+      ]
+    },
+    {
+      "line_id": 81,
+      "text": "FRAISES",
+      "score": 0.8978987336158752,
+      "detector_text": "FRAISES",
+      "detector_score": 0.9910826086997986,
+      "crop_source": "rapidocr_box",
+      "crop_h": 44,
+      "crop_w": 147,
+      "line_height_px": 44,
+      "detector_box": [
+        [
+          1491.88,
+          3078.38
+        ],
+        [
+          1639.83,
+          3081.91
+        ],
+        [
+          1639.83,
+          3125.96
+        ],
+        [
+          1491.88,
+          3122.44
+        ]
+      ]
+    },
+    {
+      "line_id": 82,
+      "text": "Epagny",
+      "score": 0.9831954836845398,
+      "detector_text": "Epagny",
+      "detector_score": 0.9952490329742432,
+      "crop_source": "rapidocr_box",
+      "crop_h": 54,
+      "crop_w": 171,
+      "line_height_px": 54,
+      "detector_box": [
+        [
+          695.74,
+          3118.91
+        ],
+        [
+          866.59,
+          3131.25
+        ],
+        [
+          863.07,
+          3185.87
+        ],
+        [
+          692.22,
+          3173.54
+        ]
+      ]
+    },
+    {
+      "line_id": 83,
+      "text": "La barquette de2Soig",
+      "score": 0.917905330657959,
+      "detector_text": "Labarquettede250g",
+      "detector_score": 0.9902187340399798,
+      "crop_source": "rapidocr_box",
+      "crop_h": 40,
+      "crop_w": 239,
+      "line_height_px": 40,
+      "detector_box": [
+        [
+          1488.35,
+          3117.15
+        ],
+        [
+          1727.9,
+          3120.67
+        ],
+        [
+          1727.9,
+          3161.2
+        ],
+        [
+          1488.35,
+          3157.68
+        ]
+      ]
+    },
+    {
+      "line_id": 84,
+      "text": "Varieteeigarlguette",
+      "score": 0.9889696836471558,
+      "detector_text": "Varietee gariguette",
+      "detector_score": 0.910814747998589,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 211,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          1490.11,
+          3147.1
+        ],
+        [
+          1701.48,
+          3155.92
+        ],
+        [
+          1699.72,
+          3198.21
+        ],
+        [
+          1488.35,
+          3189.4
+        ]
+      ]
+    },
+    {
+      "line_id": 85,
+      "text": "\"YorokdiulsSoig liesaliyfS i ce Fidietie-m o i iconottesurtous tessp ik l itS frnaisdaesihales oheJopur die voitreichigilx .",
+      "score": 0.6634533405303955,
+      "detector_text": "Produitseligiblesloffredefidetite0%cognottessurtouslesproduitsfraisdesholles lejourdevotrechoix.",
+      "detector_score": 0.8660518489778042,
+      "crop_source": "rapidocr_box",
+      "crop_h": 52,
+      "crop_w": 1273,
+      "line_height_px": 52,
+      "detector_box": [
+        [
+          26.42,
+          3192.92
+        ],
+        [
+          1299.89,
+          3221.11
+        ],
+        [
+          1299.89,
+          3273.98
+        ],
+        [
+          26.42,
+          3245.78
+        ]
+      ]
+    },
+    {
+      "line_id": 86,
+      "text": "oucilflorette",
+      "score": 0.9258726835250854,
+      "detector_text": "ouciflorette",
+      "detector_score": 0.9696398178736368,
+      "crop_source": "rapidocr_box",
+      "crop_h": 29,
+      "crop_w": 133,
+      "line_height_px": 29,
+      "detector_box": [
+        [
+          1491.88,
+          3185.87
+        ],
+        [
+          1625.74,
+          3185.87
+        ],
+        [
+          1625.74,
+          3215.83
+        ],
+        [
+          1491.88,
+          3215.83
+        ]
+      ]
+    },
+    {
+      "line_id": 87,
+      "text": "SoltleKg :oc76",
+      "score": 0.865979790687561,
+      "detector_text": "Soit lekg10676",
+      "detector_score": 0.9333901235035488,
+      "crop_source": "rapidocr_box",
+      "crop_h": 37,
+      "crop_w": 169,
+      "line_height_px": 37,
+      "detector_box": [
+        [
+          1490.11,
+          3210.54
+        ],
+        [
+          1659.2,
+          3215.83
+        ],
+        [
+          1657.44,
+          3252.83
+        ],
+        [
+          1488.35,
+          3247.54
+        ]
+      ]
+    },
+    {
+      "line_id": 88,
+      "text": "Voir modolitiesideitoillees b Lloccue ilideivotreirmbgosin ourisuir iotichoinufrtiKMVoirmogosims icioncermessur. Aiuschon.firl",
+      "score": 0.9009544849395752,
+      "detector_text": "Voirmodalites detaillees a taccueildevotremagasin ousurauchan.fr.VoirmagasinsconcernessurAuchan.fr",
+      "detector_score": 0.9342954763952567,
+      "crop_source": "rapidocr_box",
+      "crop_h": 37,
+      "crop_w": 1238,
+      "line_height_px": 37,
+      "detector_box": [
+        [
+          28.18,
+          3233.45
+        ],
+        [
+          1266.42,
+          3254.59
+        ],
+        [
+          1266.42,
+          3291.6
+        ],
+        [
+          28.18,
+          3270.45
+        ]
+      ]
+    },
+    {
+      "line_id": 89,
+      "text": "Pourvotresante,mangezaumoinscin&fruitsetlegumesparjour",
+      "score": 0.9906825423240662,
+      "detector_text": "Pourvotresante,mangezaumoinscinq fruitsetlegumesparjour.",
+      "detector_score": 0.9739210871713502,
+      "crop_source": "rapidocr_box",
+      "crop_h": 52,
+      "crop_w": 1367,
+      "line_height_px": 52,
+      "detector_box": [
+        [
+          24.66,
+          3340.94
+        ],
+        [
+          1391.48,
+          3367.37
+        ],
+        [
+          1391.48,
+          3420.23
+        ],
+        [
+          24.66,
+          3393.8
+        ]
+      ]
+    },
+    {
+      "line_id": 90,
+      "text": "wwwMmangerbougerfr",
+      "score": 0.9486047029495239,
+      "detector_text": "www.mangerbouger.fr",
+      "detector_score": 0.9891530181232252,
+      "crop_source": "rapidocr_box",
+      "crop_h": 52,
+      "crop_w": 479,
+      "line_height_px": 52,
+      "detector_box": [
+        [
+          1571.14,
+          3374.42
+        ],
+        [
+          2050.23,
+          3374.42
+        ],
+        [
+          2050.23,
+          3427.28
+        ],
+        [
+          1571.14,
+          3427.28
+        ]
+      ]
+    }
+  ]
+}

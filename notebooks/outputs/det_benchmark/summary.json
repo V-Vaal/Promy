@@ -1,0 +1,15 @@
+{
+  "n_images": 20,
+  "n_boxes_rapid_total": 1462,
+  "n_boxes_paddle_total": 1462,
+  "n_boxes_rapid_per_img": "median=75.000  IQR=[57.000, 85.500]  mean=73.100",
+  "n_boxes_paddle_per_img": "median=75.000  IQR=[57.000, 85.500]  mean=73.100",
+  "coverage_rapid": "median=0.085  IQR=[0.073, 0.095]  mean=0.084",
+  "coverage_paddle": "median=0.102  IQR=[0.085, 0.111]  mean=0.100",
+  "mean_iou_rapid_to_paddle": "median=0.747  IQR=[0.738, 0.753]  mean=0.746",
+  "mean_iou_paddle_to_rapid": "median=0.747  IQR=[0.738, 0.753]  mean=0.746",
+  "match_rate_rapid_to_paddle_avg": "100.0% (\u00b10.0)",
+  "match_rate_paddle_to_rapid_avg": "100.0% (\u00b10.0)",
+  "latency_rapid_s": "median=0.923s  IQR=[0.896, 1.028]s  mean=0.968s",
+  "latency_paddle_s": "median=5.041s  IQR=[4.872, 5.384]s  mean=5.209s"
+}

@@ -1,0 +1,1384 @@
+{
+  "image_path": "/teamspace/studios/this_studio/Promy_raw/datasets/High-Quality Invoice Images for OCR/batch_3/batch_3/batch3_2/batch3-0501.jpg",
+  "preprocess_meta": {
+    "shared_preprocessing": true,
+    "original_size": [
+      2481,
+      3508
+    ],
+    "processed_size": [
+      2480,
+      3506
+    ],
+    "deskew_angle": 0.0
+  },
+  "time_dict": {
+    "rec": 0.06950259208679199,
+    "all": 0.06950259208679199
+  },
+  "rows": [
+    {
+      "line_id": 1,
+      "text": "Invoice358559",
+      "score": 0.9845761656761169,
+      "detector_text": "Invoice #358559",
+      "detector_score": 0.9528748313585917,
+      "crop_source": "rapidocr_box",
+      "crop_h": 58,
+      "crop_w": 484,
+      "line_height_px": 58,
+      "detector_box": [
+        [
+          995.17,
+          136.07
+        ],
+        [
+          1479.55,
+          132.54
+        ],
+        [
+          1479.55,
+          190.85
+        ],
+        [
+          995.17,
+          194.39
+        ]
+      ]
+    },
+    {
+      "line_id": 2,
+      "text": "Emaill:tbrianbrianbossierdesign.com",
+      "score": 0.9798115491867065,
+      "detector_text": "Email:brian@brianbossierdesign.com",
+      "detector_score": 0.9982179473428165,
+      "crop_source": "rapidocr_box",
+      "crop_h": 51,
+      "crop_w": 752,
+      "line_height_px": 51,
+      "detector_box": [
+        [
+          1590.51,
+          291.58
+        ],
+        [
+          2342.61,
+          295.11
+        ],
+        [
+          2342.61,
+          346.36
+        ],
+        [
+          1590.51,
+          342.82
+        ]
+      ]
+    },
+    {
+      "line_id": 3,
+      "text": "Call[--623-777-9044",
+      "score": 0.9246017932891846,
+      "detector_text": "Call:+1-623-777-9044",
+      "detector_score": 0.9975056201219559,
+      "crop_source": "rapidocr_box",
+      "crop_h": 45,
+      "crop_w": 445,
+      "line_height_px": 45,
+      "detector_box": [
+        [
+          1893.47,
+          362.26
+        ],
+        [
+          2339.09,
+          362.26
+        ],
+        [
+          2339.09,
+          408.21
+        ],
+        [
+          1893.47,
+          408.21
+        ]
+      ]
+    },
+    {
+      "line_id": 4,
+      "text": "Fax402340-908-890",
+      "score": 0.9515032768249512,
+      "detector_text": "Fax:+012340-908-890",
+      "detector_score": 0.9978887752482766,
+      "crop_source": "rapidocr_box",
+      "crop_h": 45,
+      "crop_w": 452,
+      "line_height_px": 45,
+      "detector_box": [
+        [
+          1886.42,
+          427.65
+        ],
+        [
+          2339.09,
+          427.65
+        ],
+        [
+          2339.09,
+          473.59
+        ],
+        [
+          1886.42,
+          473.59
+        ]
+      ]
+    },
+    {
+      "line_id": 5,
+      "text": "ClientInformation",
+      "score": 0.958926260471344,
+      "detector_text": "Client Information",
+      "detector_score": 0.9815224839581383,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 461,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          140.91,
+          599.06
+        ],
+        [
+          602.39,
+          599.06
+        ],
+        [
+          602.39,
+          652.07
+        ],
+        [
+          140.91,
+          652.07
+        ]
+      ]
+    },
+    {
+      "line_id": 6,
+      "text": "PoLLoMOHINE8WVELDING",
+      "score": 0.9062976837158203,
+      "detector_text": "APOLLOMACHINE&WELDING",
+      "detector_score": 0.9891049067179362,
+      "crop_source": "rapidocr_box",
+      "crop_h": 45,
+      "crop_w": 662,
+      "line_height_px": 45,
+      "detector_box": [
+        [
+          140.91,
+          749.27
+        ],
+        [
+          803.18,
+          749.27
+        ],
+        [
+          803.18,
+          795.21
+        ],
+        [
+          140.91,
+          795.21
+        ]
+      ]
+    },
+    {
+      "line_id": 7,
+      "text": "Address44-93Street,Edmonton,T6E5Y3",
+      "score": 0.9730046391487122,
+      "detector_text": "Address:4141-93Street,Edmonton,T6E5Y3",
+      "detector_score": 0.9753609847378086,
+      "crop_source": "rapidocr_box",
+      "crop_h": 47,
+      "crop_w": 891,
+      "line_height_px": 47,
+      "detector_box": [
+        [
+          137.39,
+          842.92
+        ],
+        [
+          1028.64,
+          844.69
+        ],
+        [
+          1028.64,
+          892.4
+        ],
+        [
+          137.39,
+          890.64
+        ]
+      ]
+    },
+    {
+      "line_id": 8,
+      "text": "Call:--908-567-0987",
+      "score": 0.917809009552002,
+      "detector_text": "Call:+1-908-567-0987",
+      "detector_score": 0.9960433006286621,
+      "crop_source": "rapidocr_box",
+      "crop_h": 45,
+      "crop_w": 447,
+      "line_height_px": 45,
+      "detector_box": [
+        [
+          140.91,
+          940.12
+        ],
+        [
+          588.3,
+          940.12
+        ],
+        [
+          588.3,
+          986.06
+        ],
+        [
+          140.91,
+          986.06
+        ]
+      ]
+    },
+    {
+      "line_id": 9,
+      "text": "Emaill.infoclientdomain.com",
+      "score": 0.9673634767532349,
+      "detector_text": "Email:info@clientdomain.com",
+      "detector_score": 0.9968931321744565,
+      "crop_source": "rapidocr_box",
+      "crop_h": 51,
+      "crop_w": 602,
+      "line_height_px": 51,
+      "detector_box": [
+        [
+          139.15,
+          1035.54
+        ],
+        [
+          741.53,
+          1035.54
+        ],
+        [
+          741.53,
+          1086.79
+        ],
+        [
+          139.15,
+          1086.79
+        ]
+      ]
+    },
+    {
+      "line_id": 10,
+      "text": "Paymentetails",
+      "score": 0.9894641041755676,
+      "detector_text": "Payment Details",
+      "detector_score": 0.9874514659245809,
+      "crop_source": "rapidocr_box",
+      "crop_h": 58,
+      "crop_w": 420,
+      "line_height_px": 58,
+      "detector_box": [
+        [
+          139.15,
+          1176.91
+        ],
+        [
+          560.11,
+          1176.91
+        ],
+        [
+          560.11,
+          1235.23
+        ],
+        [
+          139.15,
+          1235.23
+        ]
+      ]
+    },
+    {
+      "line_id": 11,
+      "text": "Billmount:87965",
+      "score": 0.9642997980117798,
+      "detector_text": "BillAmount:$7965",
+      "detector_score": 0.9956676624715328,
+      "crop_source": "rapidocr_box",
+      "crop_h": 47,
+      "crop_w": 394,
+      "line_height_px": 47,
+      "detector_box": [
+        [
+          142.67,
+          1325.35
+        ],
+        [
+          537.22,
+          1325.35
+        ],
+        [
+          537.22,
+          1373.07
+        ],
+        [
+          142.67,
+          1373.07
+        ]
+      ]
+    },
+    {
+      "line_id": 12,
+      "text": "Bill Date:Aug.23,2023",
+      "score": 0.9382031559944153,
+      "detector_text": "Bill Date: Aug. 23, 2023",
+      "detector_score": 0.961323656141758,
+      "crop_source": "rapidocr_box",
+      "crop_h": 58,
+      "crop_w": 472,
+      "line_height_px": 58,
+      "detector_box": [
+        [
+          133.86,
+          1415.48
+        ],
+        [
+          605.91,
+          1419.01
+        ],
+        [
+          605.91,
+          1477.33
+        ],
+        [
+          133.86,
+          1473.79
+        ]
+      ]
+    },
+    {
+      "line_id": 13,
+      "text": "PaymentStatus:Paid",
+      "score": 0.9712437391281128,
+      "detector_text": "Payment Status: Paid",
+      "detector_score": 0.9819991618394852,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 449,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          137.39,
+          1516.2
+        ],
+        [
+          586.53,
+          1512.67
+        ],
+        [
+          586.53,
+          1565.68
+        ],
+        [
+          137.39,
+          1569.22
+        ]
+      ]
+    },
+    {
+      "line_id": 14,
+      "text": "DeliveryDate:Aug-23,2023",
+      "score": 0.9700524210929871,
+      "detector_text": "Delivery Date: Aug. 23, 2023",
+      "detector_score": 0.9868407462324414,
+      "crop_source": "rapidocr_box",
+      "crop_h": 58,
+      "crop_w": 567,
+      "line_height_px": 58,
+      "detector_box": [
+        [
+          137.39,
+          1606.33
+        ],
+        [
+          704.55,
+          1609.86
+        ],
+        [
+          704.55,
+          1668.18
+        ],
+        [
+          137.39,
+          1664.64
+        ]
+      ]
+    },
+    {
+      "line_id": 15,
+      "text": "PurchaseDate:Sept.9,2023",
+      "score": 0.9687149524688721,
+      "detector_text": "Purchase Date: Sept. 9, 2023",
+      "detector_score": 0.9570910228150231,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 581,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          135.62,
+          1705.29
+        ],
+        [
+          716.88,
+          1708.82
+        ],
+        [
+          716.88,
+          1761.84
+        ],
+        [
+          135.62,
+          1758.3
+        ]
+      ]
+    },
+    {
+      "line_id": 16,
+      "text": "ITEM",
+      "score": 0.8909413814544678,
+      "detector_text": "ITEM",
+      "detector_score": 0.9830083400011063,
+      "crop_source": "rapidocr_box",
+      "crop_h": 49,
+      "crop_w": 118,
+      "line_height_px": 49,
+      "detector_box": [
+        [
+          162.05,
+          1882.0
+        ],
+        [
+          280.06,
+          1882.0
+        ],
+        [
+          280.06,
+          1931.48
+        ],
+        [
+          162.05,
+          1931.48
+        ]
+      ]
+    },
+    {
+      "line_id": 17,
+      "text": "Gluantity",
+      "score": 0.9575262069702148,
+      "detector_text": "Quantity",
+      "detector_score": 0.9964518249034882,
+      "crop_source": "rapidocr_box",
+      "crop_h": 56,
+      "crop_w": 183,
+      "line_height_px": 56,
+      "detector_box": [
+        [
+          725.68,
+          1880.23
+        ],
+        [
+          908.86,
+          1883.77
+        ],
+        [
+          907.1,
+          1940.32
+        ],
+        [
+          723.92,
+          1936.78
+        ]
+      ]
+    },
+    {
+      "line_id": 18,
+      "text": "UnitPrice",
+      "score": 0.9996030330657959,
+      "detector_text": "Unit Price",
+      "detector_score": 0.970427405834198,
+      "crop_source": "rapidocr_box",
+      "crop_h": 47,
+      "crop_w": 213,
+      "line_height_px": 47,
+      "detector_box": [
+        [
+          1285.8,
+          1882.0
+        ],
+        [
+          1498.92,
+          1885.54
+        ],
+        [
+          1498.92,
+          1933.25
+        ],
+        [
+          1285.8,
+          1929.71
+        ]
+      ]
+    },
+    {
+      "line_id": 19,
+      "text": "Subotal",
+      "score": 0.9818083643913269,
+      "detector_text": "Sub Total",
+      "detector_score": 0.9912255472607083,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 211,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          1845.91,
+          1882.0
+        ],
+        [
+          2057.27,
+          1882.0
+        ],
+        [
+          2057.27,
+          1935.02
+        ],
+        [
+          1845.91,
+          1935.02
+        ]
+      ]
+    },
+    {
+      "line_id": 20,
+      "text": "3M0579HOOKIT",
+      "score": 0.9790406227111816,
+      "detector_text": "3M05791H0OKIT",
+      "detector_score": 0.9377524531804599,
+      "crop_source": "rapidocr_box",
+      "crop_h": 47,
+      "crop_w": 378,
+      "line_height_px": 47,
+      "detector_box": [
+        [
+          165.57,
+          2025.14
+        ],
+        [
+          544.26,
+          2021.6
+        ],
+        [
+          544.26,
+          2069.32
+        ],
+        [
+          165.57,
+          2072.85
+        ]
+      ]
+    },
+    {
+      "line_id": 21,
+      "text": "4",
+      "score": 0.9999977350234985,
+      "detector_text": "4",
+      "detector_score": 0.9996745586395264,
+      "crop_source": "rapidocr_box",
+      "crop_h": 40,
+      "crop_w": 35,
+      "line_height_px": 40,
+      "detector_box": [
+        [
+          723.92,
+          2048.11
+        ],
+        [
+          759.15,
+          2048.11
+        ],
+        [
+          759.15,
+          2088.76
+        ],
+        [
+          723.92,
+          2088.76
+        ]
+      ]
+    },
+    {
+      "line_id": 22,
+      "text": "S9",
+      "score": 0.7271451354026794,
+      "detector_text": "$9",
+      "detector_score": 0.9993610382080078,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 59,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          1284.03,
+          2042.81
+        ],
+        [
+          1343.92,
+          2042.81
+        ],
+        [
+          1343.92,
+          2095.82
+        ],
+        [
+          1284.03,
+          2095.82
+        ]
+      ]
+    },
+    {
+      "line_id": 23,
+      "text": "S36",
+      "score": 0.9777393937110901,
+      "detector_text": "$36",
+      "detector_score": 0.9998759031295776,
+      "crop_source": "rapidocr_box",
+      "crop_h": 54,
+      "crop_w": 86,
+      "line_height_px": 54,
+      "detector_box": [
+        [
+          1844.15,
+          2041.04
+        ],
+        [
+          1930.45,
+          2041.04
+        ],
+        [
+          1930.45,
+          2095.82
+        ],
+        [
+          1844.15,
+          2095.82
+        ]
+      ]
+    },
+    {
+      "line_id": 24,
+      "text": "DISCPAD6X/4",
+      "score": 0.9400967955589294,
+      "detector_text": "DISCPAD6X1/4",
+      "detector_score": 0.9978406627972921,
+      "crop_source": "rapidocr_box",
+      "crop_h": 45,
+      "crop_w": 341,
+      "line_height_px": 45,
+      "detector_box": [
+        [
+          167.33,
+          2065.78
+        ],
+        [
+          509.03,
+          2065.78
+        ],
+        [
+          509.03,
+          2111.73
+        ],
+        [
+          167.33,
+          2111.73
+        ]
+      ]
+    },
+    {
+      "line_id": 25,
+      "text": "5200MarineAdh",
+      "score": 0.9654145836830139,
+      "detector_text": "5200MarineAdh.",
+      "detector_score": 0.9982098468712398,
+      "crop_source": "rapidocr_box",
+      "crop_h": 45,
+      "crop_w": 348,
+      "line_height_px": 45,
+      "detector_box": [
+        [
+          165.57,
+          2203.62
+        ],
+        [
+          514.32,
+          2203.62
+        ],
+        [
+          514.32,
+          2249.57
+        ],
+        [
+          165.57,
+          2249.57
+        ]
+      ]
+    },
+    {
+      "line_id": 26,
+      "text": "4",
+      "score": 0.9999960660934448,
+      "detector_text": "4",
+      "detector_score": 0.9997311234474182,
+      "crop_source": "rapidocr_box",
+      "crop_h": 42,
+      "crop_w": 35,
+      "line_height_px": 42,
+      "detector_box": [
+        [
+          723.92,
+          2228.36
+        ],
+        [
+          759.15,
+          2228.36
+        ],
+        [
+          759.15,
+          2270.77
+        ],
+        [
+          723.92,
+          2270.77
+        ]
+      ]
+    },
+    {
+      "line_id": 27,
+      "text": "516",
+      "score": 0.9108303189277649,
+      "detector_text": "$16",
+      "detector_score": 0.9997102618217468,
+      "crop_source": "rapidocr_box",
+      "crop_h": 60,
+      "crop_w": 91,
+      "line_height_px": 60,
+      "detector_box": [
+        [
+          1280.51,
+          2219.52
+        ],
+        [
+          1372.1,
+          2219.52
+        ],
+        [
+          1372.1,
+          2279.61
+        ],
+        [
+          1280.51,
+          2279.61
+        ]
+      ]
+    },
+    {
+      "line_id": 28,
+      "text": "S64",
+      "score": 0.8859142661094666,
+      "detector_text": "$64",
+      "detector_score": 0.997577965259552,
+      "crop_source": "rapidocr_box",
+      "crop_h": 61,
+      "crop_w": 89,
+      "line_height_px": 61,
+      "detector_box": [
+        [
+          1842.39,
+          2217.76
+        ],
+        [
+          1932.22,
+          2217.76
+        ],
+        [
+          1932.22,
+          2279.61
+        ],
+        [
+          1842.39,
+          2279.61
+        ]
+      ]
+    },
+    {
+      "line_id": 29,
+      "text": "Sealant/1Og",
+      "score": 0.939910888671875,
+      "detector_text": "Sealant 1/10g",
+      "detector_score": 0.9772032911960895,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 280,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          163.81,
+          2246.03
+        ],
+        [
+          443.86,
+          2246.03
+        ],
+        [
+          443.86,
+          2299.05
+        ],
+        [
+          163.81,
+          2299.05
+        ]
+      ]
+    },
+    {
+      "line_id": 30,
+      "text": "3M4032/CUrethane",
+      "score": 0.98875892162323,
+      "detector_text": "3M4032D/CUrethane",
+      "detector_score": 0.9966345394358915,
+      "crop_source": "rapidocr_box",
+      "crop_h": 45,
+      "crop_w": 454,
+      "line_height_px": 45,
+      "detector_box": [
+        [
+          167.33,
+          2387.4
+        ],
+        [
+          621.76,
+          2387.4
+        ],
+        [
+          621.76,
+          2433.35
+        ],
+        [
+          167.33,
+          2433.35
+        ]
+      ]
+    },
+    {
+      "line_id": 31,
+      "text": "20",
+      "score": 0.7273677587509155,
+      "detector_text": "10",
+      "detector_score": 0.9995815753936768,
+      "crop_source": "rapidocr_box",
+      "crop_h": 51,
+      "crop_w": 59,
+      "line_height_px": 51,
+      "detector_box": [
+        [
+          723.92,
+          2405.07
+        ],
+        [
+          783.81,
+          2405.07
+        ],
+        [
+          783.81,
+          2456.32
+        ],
+        [
+          723.92,
+          2456.32
+        ]
+      ]
+    },
+    {
+      "line_id": 32,
+      "text": "$55",
+      "score": 0.9566753506660461,
+      "detector_text": "$55",
+      "detector_score": 0.9999416271845499,
+      "crop_source": "rapidocr_box",
+      "crop_h": 54,
+      "crop_w": 84,
+      "line_height_px": 54,
+      "detector_box": [
+        [
+          1284.03,
+          2403.31
+        ],
+        [
+          1368.58,
+          2403.31
+        ],
+        [
+          1368.58,
+          2458.09
+        ],
+        [
+          1284.03,
+          2458.09
+        ]
+      ]
+    },
+    {
+      "line_id": 33,
+      "text": "5550",
+      "score": 0.9978516101837158,
+      "detector_text": "$550",
+      "detector_score": 0.9999031126499176,
+      "crop_source": "rapidocr_box",
+      "crop_h": 56,
+      "crop_w": 112,
+      "line_height_px": 56,
+      "detector_box": [
+        [
+          1842.39,
+          2401.54
+        ],
+        [
+          1955.11,
+          2401.54
+        ],
+        [
+          1955.11,
+          2458.09
+        ],
+        [
+          1842.39,
+          2458.09
+        ]
+      ]
+    },
+    {
+      "line_id": 34,
+      "text": "FoamTape",
+      "score": 0.9991188049316406,
+      "detector_text": "Foam Tape",
+      "detector_score": 0.9674083325597975,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 234,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          163.81,
+          2428.05
+        ],
+        [
+          398.07,
+          2428.05
+        ],
+        [
+          398.07,
+          2481.06
+        ],
+        [
+          163.81,
+          2481.06
+        ]
+      ]
+    },
+    {
+      "line_id": 35,
+      "text": "3M47ellowVinyl",
+      "score": 0.9980743527412415,
+      "detector_text": "3M 471 Yellow Vinyl",
+      "detector_score": 0.9349208160450584,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 399,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          165.57,
+          2565.88
+        ],
+        [
+          565.4,
+          2565.88
+        ],
+        [
+          565.4,
+          2618.9
+        ],
+        [
+          165.57,
+          2618.9
+        ]
+      ]
+    },
+    {
+      "line_id": 36,
+      "text": "5",
+      "score": 0.9992203712463379,
+      "detector_text": "5",
+      "detector_score": 0.9992495179176331,
+      "crop_source": "rapidocr_box",
+      "crop_h": 51,
+      "crop_w": 35,
+      "line_height_px": 51,
+      "detector_box": [
+        [
+          723.92,
+          2585.32
+        ],
+        [
+          759.15,
+          2585.32
+        ],
+        [
+          759.15,
+          2636.57
+        ],
+        [
+          723.92,
+          2636.57
+        ]
+      ]
+    },
+    {
+      "line_id": 37,
+      "text": "$5",
+      "score": 0.7818182706832886,
+      "detector_text": "$5",
+      "detector_score": 0.9996009767055511,
+      "crop_source": "rapidocr_box",
+      "crop_h": 54,
+      "crop_w": 59,
+      "line_height_px": 54,
+      "detector_box": [
+        [
+          1284.03,
+          2585.32
+        ],
+        [
+          1343.92,
+          2585.32
+        ],
+        [
+          1343.92,
+          2640.1
+        ],
+        [
+          1284.03,
+          2640.1
+        ]
+      ]
+    },
+    {
+      "line_id": 38,
+      "text": "$25",
+      "score": 0.9582509994506836,
+      "detector_text": "$25",
+      "detector_score": 0.999903122584025,
+      "crop_source": "rapidocr_box",
+      "crop_h": 54,
+      "crop_w": 86,
+      "line_height_px": 54,
+      "detector_box": [
+        [
+          1844.15,
+          2583.55
+        ],
+        [
+          1930.45,
+          2583.55
+        ],
+        [
+          1930.45,
+          2638.34
+        ],
+        [
+          1844.15,
+          2638.34
+        ]
+      ]
+    },
+    {
+      "line_id": 39,
+      "text": "Tape",
+      "score": 0.9908987283706665,
+      "detector_text": "Tape",
+      "detector_score": 0.9992403388023376,
+      "crop_source": "rapidocr_box",
+      "crop_h": 51,
+      "crop_w": 109,
+      "line_height_px": 51,
+      "detector_box": [
+        [
+          167.33,
+          2604.76
+        ],
+        [
+          276.53,
+          2615.36
+        ],
+        [
+          271.25,
+          2666.61
+        ],
+        [
+          162.05,
+          2656.01
+        ]
+      ]
+    },
+    {
+      "line_id": 40,
+      "text": "3MT074Hang Tabs",
+      "score": 0.9598251581192017,
+      "detector_text": "3M 1074 Hang Tabs",
+      "detector_score": 0.9684317848261665,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 405,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          163.81,
+          2744.36
+        ],
+        [
+          568.92,
+          2747.9
+        ],
+        [
+          568.92,
+          2800.91
+        ],
+        [
+          163.81,
+          2797.38
+        ]
+      ]
+    },
+    {
+      "line_id": 41,
+      "text": "6",
+      "score": 0.9997064471244812,
+      "detector_text": "6",
+      "detector_score": 0.9989443421363831,
+      "crop_source": "rapidocr_box",
+      "crop_h": 47,
+      "crop_w": 35,
+      "line_height_px": 47,
+      "detector_box": [
+        [
+          723.92,
+          2769.1
+        ],
+        [
+          759.15,
+          2769.1
+        ],
+        [
+          759.15,
+          2816.82
+        ],
+        [
+          723.92,
+          2816.82
+        ]
+      ]
+    },
+    {
+      "line_id": 42,
+      "text": "526",
+      "score": 0.8644633889198303,
+      "detector_text": "$26",
+      "detector_score": 0.9999068379402161,
+      "crop_source": "rapidocr_box",
+      "crop_h": 60,
+      "crop_w": 88,
+      "line_height_px": 60,
+      "detector_box": [
+        [
+          1282.27,
+          2762.04
+        ],
+        [
+          1370.34,
+          2762.04
+        ],
+        [
+          1370.34,
+          2822.12
+        ],
+        [
+          1282.27,
+          2822.12
+        ]
+      ]
+    },
+    {
+      "line_id": 43,
+      "text": "S156",
+      "score": 0.9169514775276184,
+      "detector_text": "$156",
+      "detector_score": 0.9998622834682465,
+      "crop_source": "rapidocr_box",
+      "crop_h": 58,
+      "crop_w": 114,
+      "line_height_px": 58,
+      "detector_box": [
+        [
+          1842.39,
+          2762.04
+        ],
+        [
+          1956.88,
+          2762.04
+        ],
+        [
+          1956.88,
+          2820.35
+        ],
+        [
+          1842.39,
+          2820.35
+        ]
+      ]
+    },
+    {
+      "line_id": 44,
+      "text": "Clearx2.",
+      "score": 0.9708632230758667,
+      "detector_text": "Clear 1\"x2\"",
+      "detector_score": 0.9625217047604647,
+      "crop_source": "rapidocr_box",
+      "crop_h": 47,
+      "crop_w": 223,
+      "line_height_px": 47,
+      "detector_box": [
+        [
+          167.33,
+          2790.31
+        ],
+        [
+          391.02,
+          2790.31
+        ],
+        [
+          391.02,
+          2838.02
+        ],
+        [
+          167.33,
+          2838.02
+        ]
+      ]
+    },
+    {
+      "line_id": 45,
+      "text": "Totalmount:$7889",
+      "score": 0.955183744430542,
+      "detector_text": "Total Amount:$7889",
+      "detector_score": 0.9956870443291135,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 424,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          1916.36,
+          2958.19
+        ],
+        [
+          2340.85,
+          2963.49
+        ],
+        [
+          2340.85,
+          3016.5
+        ],
+        [
+          1916.36,
+          3011.2
+        ]
+      ]
+    },
+    {
+      "line_id": 46,
+      "text": "Tax:59010onbilI)",
+      "score": 0.9203792810440063,
+      "detector_text": "Tax: $ 90 (10% on bill)",
+      "detector_score": 0.9769736761632173,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 447,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          1891.7,
+          3090.72
+        ],
+        [
+          2339.09,
+          3094.26
+        ],
+        [
+          2339.09,
+          3147.27
+        ],
+        [
+          1891.7,
+          3143.74
+        ]
+      ]
+    },
+    {
+      "line_id": 47,
+      "text": "Billamount:$7965",
+      "score": 0.9411129951477051,
+      "detector_text": "BillAmount:$7965",
+      "detector_score": 0.9946813173592091,
+      "crop_source": "rapidocr_box",
+      "crop_h": 53,
+      "crop_w": 429,
+      "line_height_px": 53,
+      "detector_box": [
+        [
+          1911.08,
+          3226.79
+        ],
+        [
+          2340.85,
+          3226.79
+        ],
+        [
+          2340.85,
+          3279.81
+        ],
+        [
+          1911.08,
+          3279.81
+        ]
+      ]
+    }
+  ]
+}
