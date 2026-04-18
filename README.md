@@ -3,7 +3,9 @@
 ![Python](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/licence-MIT-green)
 
-Pipeline de reconnaissance optique de caractères spécialisé pour l'extraction automatique de données sur images. Le module de reconnaissance (REC) de PaddleOCR, architecture CRNN (MobileNetV3 + BiLSTM + CTC), est fine-tuné sur un corpus Kaggle de 1 413 factures annotées. Le pipeline est démontrable via une application Docker exposant une API FastAPI et une interface Streamlit.
+Pipeline de reconnaissance optique de caractères spécialisé pour l'extraction automatique de données sur images.
+Le module de reconnaissance (REC) de PaddleOCR, architecture CRNN (MobileNetV3 + BiLSTM + CTC), est fine-tuné sur un corpus Kaggle de 1 413 factures annotées.
+Le pipeline est démontrable via une application Docker exposant une API FastAPI et une interface Streamlit.
 
 Projet réalisé dans le cadre de la certification RNCP38616 Alyra, bloc 05 : conception d'un service IA en production.
 
