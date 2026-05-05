@@ -1,230 +1,334 @@
-# Promy : OCR par fine-tuning PaddleOCR REC
+# Promy - OCR Pipeline for Invoice Documents
 
 ![Python](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white)
-![License](https://img.shields.io/badge/licence-MIT-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-Pipeline de reconnaissance optique de caractères spécialisé pour l'extraction automatique de données sur images.
-Le module de reconnaissance (REC) de PaddleOCR, architecture CRNN (MobileNetV3 + BiLSTM + CTC), est fine-tuné sur un corpus Kaggle de 1 413 factures annotées.
-Le pipeline est démontrable via une application Docker exposant une API FastAPI et une interface Streamlit.
+**[Version française](README.fr.md)**
 
-Projet réalisé dans le cadre de la certification RNCP38616 Alyra, bloc 05 : conception d'un service IA en production.
+An end-to-end OCR pipeline for invoice document processing. The recognition module (CRNN with MobileNetV3 + BiLSTM + CTC) is fine-tuned on a corpus of 1,413 annotated invoices. A working prototype is exposed via FastAPI and Streamlit, packaged with Docker.
 
-## Table des matières
+## Table of contents
 
-1. [Ce que fait le projet](#ce-que-fait-le-projet)
-2. [Architecture du pipeline](#architecture-du-pipeline)
-3. [Structure du dépôt](#structure-du-dépôt)
-4. [Prérequis](#prérequis)
-5. [Récupérer le dataset](#récupérer-le-dataset)
-6. [Lancer le démonstrateur Docker](#lancer-le-démonstrateur-docker)
-7. [Lire les notebooks](#lire-les-notebooks)
-8. [Ré-entraîner le modèle](#ré-entraîner-le-modèle-optionnel)
-9. [Licences et dataset](#licences-et-dataset)
+1. [Overview](#overview)
+2. [Problem statement](#problem-statement)
+3. [What the project does](#what-the-project-does)
+4. [OCR pipeline](#ocr-pipeline)
+5. [Dataset](#dataset)
+6. [Preprocessing](#preprocessing)
+7. [Detection model](#detection-model)
+8. [Recognition model](#recognition-model)
+9. [Model comparison](#model-comparison)
+10. [Evaluation metrics](#evaluation-metrics)
+11. [Key results](#key-results)
+12. [API and prototype](#api-and-prototype)
+13. [Repository structure](#repository-structure)
+14. [How to run](#how-to-run)
+15. [Limitations](#limitations)
+16. [Future improvements](#future-improvements)
+17. [Tech stack](#tech-stack)
+18. [License](#license)
+19. [Author](#author)
 
-## Ce que fait le projet
+## Overview
 
-Le démonstrateur reçoit une image (JPG ou PNG, jusqu'à 10 Mo) et renvoie une sortie structurée ligne par ligne contenant le texte reconnu, la confiance associée par ligne, et les métadonnées de prétraitement (deskew, taille originale, taille après preprocessing).
+Promy covers the full OCR chain for invoice images: image preprocessing, text detection, character recognition, evaluation, and a deployable prototype. It is structured to go beyond a notebook experiment, with a clear separation between research notebooks, training artifacts, and a self-contained deployment package.
 
-En interne, le pipeline enchaîne :
+## Problem statement
 
-1. **Prétraitement image** (`deployment/preprocessing.py`) : conversion en niveaux de gris via espace LAB, CLAHE pour rehausser le contraste, correction de skew, debruitage léger, normalisation de résolution.
-2. **Détection de texte (DET)** : RapidOCR (DBNet ONNX) pour localiser chaque zone de texte sur la facture complète.
-3. **Reconnaissance de caractères (REC)** : PaddleOCR CRNN fine-tuné sur factures, appliqué à chaque crop de ligne de texte.
-4. **Agrégation** : tri des lignes par confiance, export JSON / CSV.
+Extracting text from invoice images is not straightforward. Invoices vary in layout, font, resolution, and scanning quality. Off-the-shelf OCR models are not always adapted to this type of document. Promy addresses this by fine-tuning a lightweight OCR recognition model specifically on invoice data, within a complete and reproducible pipeline.
 
-Le REC fine-tuné atteint un CER proxy de 0,19 % sur la validation interne (split 75/25 anti-leakage par facture), pour une latence d'inférence de 3,4 ms par crop (batch=12) sur GPU L4.
+## What the project does
 
-## Architecture du pipeline
+The pipeline receives a JPG or PNG image (up to 10 MB) and returns a structured output containing:
+
+- recognized text, line by line
+- per-line confidence scores
+- preprocessing metadata (deskew angle, original size, processed size)
+
+Output is available as JSON or CSV.
+
+## OCR pipeline
 
 ```
-Image brute (JPG/PNG)
+Raw image (JPG/PNG)
         |
         v
 +---------------------------+
-| Preprocessing             |  grayscale LAB, CLAHE, deskew, denoise, resize
+| Preprocessing             |  LAB grayscale, CLAHE, deskew, denoise, resize
 | deployment/preprocessing  |
 +---------------------------+
         |
         v
 +---------------------------+
-| DET : RapidOCR (DBNet)    |  bounding boxes texte
-| ONNX embarqué             |
+| Detection: RapidOCR       |  bounding boxes (DBNet ONNX)
+| (not fine-tuned)          |
 +---------------------------+
         |
-        v (crops ligne par ligne)
+        v  (line crops)
 +---------------------------+
-| REC : PaddleOCR CRNN      |  MobileNetV3 + BiLSTM + CTC
-| fine-tuné sur factures    |  ~8 M paramètres
+| Recognition: PaddleOCR    |  CRNN: MobileNetV3 + BiLSTM + CTC
+| CRNN, fine-tuned          |  approx. 8M parameters
 | deployment/models/rec_infer
 +---------------------------+
         |
         v
-Sortie structurée (JSON / CSV)
-    - lignes
-    - confiances
-    - métadonnées preprocessing
+Structured output (JSON / CSV)
+  - lines
+  - confidences
+  - preprocessing metadata
 ```
 
-Seul le REC est fine-tuné. La détection est déléguée à RapidOCR non réentraînée : c'est une limite assumée du périmètre, documentée dans les notebooks et le livret de certification.
+Only the recognition module (REC) is fine-tuned. Text detection is handled by RapidOCR without retraining. This is a deliberate scope boundary, documented in the notebooks.
 
-## Structure du dépôt
+## Dataset
+
+**High Quality Invoice Images for OCR** (Kaggle, Osama Hosam Abdellatif)
+
+- 1,413 annotated invoices (batch_1, used for training)
+- 300 unannotated invoices (batch_2, used for qualitative validation)
+- 2 additional out-of-corpus invoices for A/B tests
+
+Dataset link: https://www.kaggle.com/datasets/osamahosamabdellatif/high-quality-invoice-images-for-ocr
+
+The dataset is not redistributed in this repository.
+
+## Preprocessing
+
+The preprocessing module (`deployment/preprocessing.py`, also present in `notebooks/preprocessing.py`) applies the following steps in sequence:
+
+1. Grayscale conversion via LAB color space
+2. CLAHE contrast enhancement
+3. Skew correction (deskew)
+4. Light denoising
+5. Resolution normalization
+
+This module is shared between the notebook environment and the deployed API.
+
+## Detection model
+
+Text detection uses **RapidOCR** with DBNet in ONNX format. It localizes text regions on the full invoice image and produces bounding boxes, which are cropped and passed to the recognition module.
+
+RapidOCR is used as-is, without fine-tuning. A benchmark of detection alternatives is documented in `NB_DET_Benchmark.ipynb`.
+
+## Recognition model
+
+The recognition model is the PaddleOCR **CRNN** architecture:
+
+- Backbone: MobileNetV3
+- Sequence modeling: BiLSTM
+- Decoder: CTC
+- Approximate size: 8M parameters
+
+It is fine-tuned on invoice crops generated by pseudo-labelling from batch_1 annotations. Training used a 75/25 anti-leakage split by invoice to avoid data contamination. Training ran for 40 epochs; the best checkpoint was selected at epoch 34 based on `val_norm_edit_dis`.
+
+## Model comparison
+
+The notebook `NB_Comparatif.ipynb` documents a quantitative comparison between:
+
+- **TrOCR** (Microsoft, Transformer-based)
+- **PaddleOCR CRNN** (fine-tuned on invoices)
+
+PaddleOCR CRNN was selected for its lower inference latency, smaller model footprint, and better fit for a prototype deployment context. The TrOCR experiment is preserved in `NB_experiment_TrOCR.ipynb`.
+
+## Evaluation metrics
+
+Fine-tuning uses `norm_edit_dis` (normalized edit distance) as the training metric, equivalent to 1 - CER at the character level. Epoch-by-epoch metrics are logged in:
+
+- `workspace_paddleocr_invoice/runs/metrics/rec_epoch_metrics.csv`
+- `workspace_paddleocr_invoice/runs/metrics/rec_epoch_metrics.png`
+
+## Key results
+
+Results from the internal validation set (75/25 anti-leakage split by invoice):
+
+- **CER proxy**: 0.19% on the validation set
+- **Inference latency**: 3.4 ms per crop at batch size 12 on a GPU L4
+
+These numbers reflect a controlled benchmark on the training corpus. Performance on out-of-corpus or significantly different invoice formats may vary.
+
+## API and prototype
+
+The deployment package exposes:
+
+**FastAPI** (port 8000):
+- `GET /health` - service health check
+- `POST /ocr` - multipart file upload, returns `{lines, confidences, mean_confidence, n_segments, preprocessing}`
+- Swagger docs: http://localhost:8000/docs
+
+**Streamlit** (port 8501): a web interface to upload an invoice, adjust the confidence threshold, visualize the output table, and download the CSV.
+
+Both services are packaged together with Docker Compose.
+
+## Repository structure
 
 ```
 Promy/
-├── deployment/                     # Démonstrateur Docker (livrable BC05)
-│   ├── api/                        # API FastAPI, routes /ocr et /health
-│   ├── front/                      # App Streamlit
-│   ├── models/rec_infer/           # Modèle CRNN fine-tuné (inference)
-│   ├── preprocessing.py              
-│   ├── tests/                      # Tests pytest API + vendor
+├── deployment/                     # Docker prototype (API + frontend)
+│   ├── api/                        # FastAPI routes (/ocr, /health)
+│   ├── front/                      # Streamlit app
+│   ├── models/rec_infer/           # Fine-tuned CRNN model (inference)
+│   ├── preprocessing.py
+│   ├── tests/                      # pytest tests (API + vendor)
 │   ├── Dockerfile
 │   ├── docker-compose.yml
 │   └── pyproject.toml
 │
-├── notebooks/                      # Notebooks du projet DL
-│   ├── NB1_EDA.ipynb                       
-│   ├── NB2_Preprocessing.ipynb             
+├── notebooks/                      # Research and training notebooks
+│   ├── NB1_EDA.ipynb
+│   ├── NB2_Preprocessing.ipynb
 │   ├── NB3_Fine-tuning_DETRapidOCR_RECPaddleOCR.ipynb
-│   ├── NB_Comparatif.ipynb                 # Arbitrage TrOCR vs PaddleOCR
-│   ├── NB_DET_Benchmark.ipynb              # Benchmark de la détection
-│   ├── NB_experiment_TrOCR.ipynb           # Expérimentation TrOCR
+│   ├── NB_Comparatif.ipynb         # TrOCR vs PaddleOCR comparison
+│   ├── NB_DET_Benchmark.ipynb      # Detection benchmark
+│   ├── NB_experiment_TrOCR.ipynb   # TrOCR experiment archive
 │   ├── preprocessing.py
-│   └── outputs/                            # Outputs de runs de notebooks
+│   └── outputs/
 │
-├── models/                         # Modèle + métriques du run final
+├── models/                         # Final model and metrics
 │   └── PaddleOCR_Invoice_v2/
-│       ├── rec_infer/              # Modèle exporté
+│       ├── rec_infer/
 │       ├── latency_benchmark.json
 │       └── README.md
 │
-├── workspace_paddleocr_invoice/    # Artefacts d'entraînement (voir README local)
-│   ├── export/rec_infer/           # Modèle exporté (inference.json, pdiparams, yml)
+├── workspace_paddleocr_invoice/    # Training artifacts (see local README)
+│   ├── export/rec_infer/
 │   ├── runs/
 │   │   ├── rec/
-│   │   │   ├── config.yml          # Config PaddleOCR du fine-tuning
-│   │   │   └── train.log           # Log d'entraînement (40 epochs)
-│   │   └── metrics/                # CSV + plots des métriques par epoch
+│   │   │   ├── config.yml          # Fine-tuning configuration
+│   │   │   └── train.log           # Full training log (40 epochs)
+│   │   └── metrics/
 │   ├── prepared_data/
-│   │   └── prepared_data/
-│   │       ├── pseudo_quality_train.csv
-│   │       └── pseudo_quality_val.csv
-│   ├── testsAB_outputs/            # Résultats des tests A/B hors corpus
-│   └── inference_raw_text.{csv,json,txt}
+│   ├── testsAB_outputs/
+│   └── README.md
 │
-├── Promy_raw/                      # Données brutes (voir README local)
-│   └── datasets/                   # Dataset Kaggle + images de test
+├── Promy_raw/                      # Raw data (see local README)
+│   └── datasets/
 │
 ├── .gitignore
 ├── pyproject.toml
 ├── uv.lock
-└── README.md
+├── README.md
+└── README.fr.md
 ```
 
-## Prérequis
+## How to run
 
-Pour le démonstrateur Docker uniquement :
-- Docker 24+ et Docker Compose v2
+### Prerequisites
 
-Pour ouvrir et exécuter les notebooks localement :
+For the Docker prototype:
+- Docker 24+ and Docker Compose v2
+
+For local notebook execution:
 - Python 3.12
-- [uv](https://docs.astral.sh/uv/) pour la gestion d'environnement
-- Optionnel : GPU NVIDIA avec CUDA pour ré-entraîner le REC
+- [uv](https://docs.astral.sh/uv/) for environment management
+- Optional: NVIDIA GPU with CUDA for retraining
 
-## Récupérer le dataset
+### Get the dataset
 
-Le dataset principal est **High Quality Invoice Images for OCR** (Kaggle) : 1 413 factures annotées pour l'entraînement (`batch_1`) + 300 factures non annotées pour validation qualitative (`batch_2`).
-
-1. Télécharger le dataset depuis Kaggle :
+1. Download from Kaggle:
 
    https://www.kaggle.com/datasets/osamahosamabdellatif/high-quality-invoice-images-for-ocr
 
-2. Décompresser l'archive dans :
+2. Extract to:
 
-   ```
-   Promy_raw/datasets/High-Quality Invoice Images for OCR/
-   ```
-
-   La structure attendue après extraction :
    ```
    Promy_raw/datasets/High-Quality Invoice Images for OCR/
    ├── batch_1/
-   │   ├── *.csv            (annotations documentaires)
+   │   ├── *.csv
    │   └── images...
    └── batch_2/
        └── images...
    ```
 
-3. Alternative via `kagglehub` (requiert une clé Kaggle configurée) : dans NB3, passer `ALLOW_KAGGLEHUB_FALLBACK = True` (cellule 3).
+3. Alternative: in NB3, set `ALLOW_KAGGLEHUB_FALLBACK = True` (cell 3) to download via kagglehub (requires a configured Kaggle API key).
 
-Les deux images hors corpus utilisées pour les tests A/B sont présentes dans `Promy_raw/datasets/` et exploitables directement.
+The two out-of-corpus test images used for A/B tests are already present in `Promy_raw/datasets/`.
 
-## Lancer le démonstrateur Docker
-
-Le démonstrateur expose une API FastAPI (port 8000) et une interface Streamlit (port 8501).
+### Run the Docker prototype
 
 ```bash
 cd deployment
 docker compose up -d --build
 ```
 
-Une fois les services lancés :
+Once running:
+- Streamlit UI: http://localhost:8501
+- FastAPI docs: http://localhost:8000/docs
 
-- **Interface utilisateur** : http://localhost:8501
-  Dépose une facture, ajuste le seuil de confiance, visualise le tableau et télécharge le CSV.
+### Read the notebooks
 
-- **API FastAPI** : http://localhost:8000
-  - `GET /health` : ping de santé
-  - `POST /ocr` : multipart file upload, renvoie `{lines, confidences, mean_confidence, n_segments, preprocessing}`
-  - Docs Swagger : http://localhost:8000/docs
+The notebooks are primarily written in French because they document the project methodology in detail. Each notebook includes an English summary at the top to make the workflow understandable for non-French readers.
 
-## Lire les notebooks
+Recommended reading order:
 
-Ordre de lecture recommandé :
+1. `NB1_EDA.ipynb` - dataset exploration, annotation inventory, biases
+2. `NB2_Preprocessing.ipynb` - preprocessing pipeline and design choices
+3. `NB3_Fine-tuning_DETRapidOCR_RECPaddleOCR.ipynb` - pseudo-labelling, anti-leakage split, fine-tuning, export, A/B tests
+4. `NB_Comparatif.ipynb` - quantitative TrOCR vs PaddleOCR comparison
+5. `NB_DET_Benchmark.ipynb` - detection benchmark
+6. `NB_experiment_TrOCR.ipynb` - TrOCR experiment archive (narrative)
 
-1. `NB1_EDA.ipynb` : compréhension du dataset, inventaire des annotations, biais
-2. `NB2_Preprocessing.ipynb` : pipeline preprocessing image, justification des étapes
-3. `NB3_Fine-tuning_DETRapidOCR_RECPaddleOCR.ipynb` : pseudo-labelling, split anti-leakage, fine-tuning REC, export, tests A/B
-4. `NB_Comparatif.ipynb` : arbitrage chiffré TrOCR vs PaddleOCR
-5. `NB_DET_Benchmark.ipynb` : benchmark détection
-6. `NB_experiment_TrOCR.ipynb` : archive narrative (expérimentation TrOCR écartée)
+### Retrain the model (optional)
 
-## Ré-entraîner le modèle (optionnel)
-
-Le fine-tuning complet requiert le clone de PaddleOCR et les modèles pré-entraînés.
-
-1. Cloner PaddleOCR dans le workspace :
+1. Clone PaddleOCR into the workspace:
 
    ```bash
    cd workspace_paddleocr_invoice
    git clone https://github.com/PaddlePaddle/PaddleOCR.git .
    ```
 
-   Le dossier `runs/rec/config.yml` conservé dans le dépôt contient la configuration utilisée pour le fine-tuning et peut servir de référence.
+2. Download the pretrained weights referenced in `runs/rec/config.yml` (section `Global.pretrained_model`).
 
-2. Télécharger les poids pré-entraînés référencés dans la config (voir `pretrain_models/` du clone PaddleOCR).
+3. In NB3, set:
+   - `FORCE_REBUILD_PREPARED_DATA = True` (cell 5) to regenerate pseudo-labels and crops
+   - `RUN_REC_TRAINING = True` (cell 5) to start training
 
-3. Dans `NB3`, passer :
-   - `FORCE_REBUILD_PREPARED_DATA = True` (cellule 5) pour regénérer les pseudo-labels
-   - `RUN_REC_TRAINING = True` (cellule 5) pour déclencher l'entraînement
+4. Checkpoints will be written to `runs/rec/` and the best model exported to `export/rec_infer/`.
 
-4. L'entraînement écrit ses checkpoints dans `workspace_paddleocr_invoice/runs/rec/` et exporte le meilleur modèle dans `workspace_paddleocr_invoice/export/rec_infer/`.
+See `workspace_paddleocr_invoice/README.md` for details.
 
-Voir `workspace_paddleocr_invoice/README.md` pour les détails.
+## Limitations
 
-## Licences et dataset
+- **Detection is not fine-tuned.** RapidOCR is used as-is. Performance on atypical invoice layouts depends on the DBNet pretrained model.
+- **Word spacing.** The CRNN model can miss spaces between words in some configurations.
+- **French-language coverage.** The base model and training corpus are English-dominant. Performance on French invoices is not fully characterized.
+- **No structured field extraction.** The pipeline outputs raw text lines. It does not extract fields such as amounts, dates, or vendor names.
+- **Template diversity.** Results may degrade on invoice formats significantly different from the training corpus.
+- **Prototype scope.** The Docker deployment is a demonstrator, not a production-ready system.
 
-- **Code** : sous licence MIT, sauf mention contraire dans les fichiers sources.
-- **Dataset Kaggle** : la licence du dataset High Quality Invoice Images for OCR est celle fixée par son auteur sur Kaggle. Le dataset n'est pas redistribué ici.
-- **PaddleOCR** : Apache 2.0, voir https://github.com/PaddlePaddle/PaddleOCR
-- **RapidOCR** : Apache 2.0, voir https://github.com/RapidAI/RapidOCR
-- **Images de test hors-corpus** présentes dans `Promy_raw/datasets/` : scans internes anonymisés à usage strictement pédagogique.
+## Future improvements
 
----
+- Fine-tune the detection module on invoice-specific layouts
+- Add a structured field extraction layer (KIE)
+- Expand French-language coverage in the training corpus
+- Benchmark on a broader range of invoice templates
+- Add a CI pipeline for automated regression testing
 
-## Auteur
+## Tech stack
+
+| Component | Technology |
+|-----------|------------|
+| Language | Python 3.12 |
+| OCR recognition | PaddleOCR (CRNN fine-tuning) |
+| OCR detection | RapidOCR (DBNet ONNX) |
+| Image preprocessing | OpenCV, NumPy, Pillow |
+| Model experiments | PyTorch, Hugging Face Transformers (TrOCR) |
+| API | FastAPI |
+| Frontend | Streamlit |
+| Deployment | Docker, Docker Compose |
+| Environment | uv |
+
+## License
+
+- **Code**: MIT, unless otherwise noted in source files.
+- **Dataset**: the Kaggle dataset license applies. The dataset is not redistributed here.
+- **PaddleOCR**: Apache 2.0 - https://github.com/PaddlePaddle/PaddleOCR
+- **RapidOCR**: Apache 2.0 - https://github.com/RapidAI/RapidOCR
+- **Out-of-corpus test images** in `Promy_raw/datasets/`: anonymized internal scans, for educational use only.
+
+## Author
 
 **Valentin Valluet**
 
-- GitHub : [github.com/V-Vaal](https://github.com/V-Vaal)
-- LinkedIn : [linkedin.com/in/valentin-valluet](https://linkedin.com/in/valentin-valluet)
-- X : [@val2_x](https://x.com/val2_x)
+- GitHub: [github.com/V-Vaal](https://github.com/V-Vaal)
+- LinkedIn: [linkedin.com/in/valentin-valluet](https://linkedin.com/in/valentin-valluet)
+- X: [@val2_x](https://x.com/val2_x)
